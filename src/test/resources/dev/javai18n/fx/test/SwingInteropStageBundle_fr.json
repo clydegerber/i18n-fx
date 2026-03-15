@@ -1,0 +1,69 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "Interopérabilité Swing / FX"
+  },
+  "languageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Langue"
+  },
+  "swingInFxSectionProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Swing Intégré dans JavaFX"
+  },
+  "fxInSwingSectionProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "JavaFX Intégré dans Swing"
+  },
+  "swingLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "Étiquette Swing"
+  },
+  "swingButtonProps":
+  {
+    "type": "dev.javai18n.swing.AbstractButtonPropertyBundle",
+    "Text": "Bouton Swing"
+  },
+  "swingLanguageLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "Langue"
+  },
+  "swingFrameLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "Étiquette Swing dans le Cadre"
+  },
+  "embeddedFxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Étiquette FX"
+  },
+  "embeddedFxButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Bouton FX"
+  },
+  "openSwingFrameButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Ouvrir le Cadre Swing",
+    "TooltipText": "Ouvrir un JFrame Swing avec du contenu JavaFX intégré"
+  },
+  "closeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Fermer"
+  },
+  "swingFrameCloseButtonProps":
+  {
+    "type": "dev.javai18n.swing.AbstractButtonPropertyBundle",
+    "Text": "Fermer"
+  },
+  "SwingFrameTitle": "JavaFX Intégré dans Swing"
+}

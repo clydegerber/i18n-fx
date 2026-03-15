@@ -1,0 +1,17 @@
+{
+  "demoPopupTitleProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Demo Popup"
+  },
+  "demoPopupMessageProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "This popup is a LocalizablePopup. Its content updates when the locale changes."
+  },
+  "demoPopupCloseButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Close"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "Swing / FX 互操作性"
+  },
+  "languageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "语言"
+  },
+  "swingInFxSectionProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "嵌入JavaFX的Swing"
+  },
+  "fxInSwingSectionProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "嵌入Swing的JavaFX"
+  },
+  "swingLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "Swing标签"
+  },
+  "swingButtonProps":
+  {
+    "type": "dev.javai18n.swing.AbstractButtonPropertyBundle",
+    "Text": "Swing按钮"
+  },
+  "swingLanguageLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "语言"
+  },
+  "swingFrameLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "窗口中的Swing标签"
+  },
+  "embeddedFxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "FX标签"
+  },
+  "embeddedFxButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "FX按钮"
+  },
+  "openSwingFrameButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "打开Swing窗口",
+    "TooltipText": "打开包含嵌入式JavaFX内容的Swing JFrame"
+  },
+  "closeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "关闭"
+  },
+  "swingFrameCloseButtonProps":
+  {
+    "type": "dev.javai18n.swing.AbstractButtonPropertyBundle",
+    "Text": "关闭"
+  },
+  "SwingFrameTitle": "嵌入Swing的JavaFX"
+}

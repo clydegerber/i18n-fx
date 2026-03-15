@@ -1,0 +1,72 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "联系表单 — FXML 演示"
+  },
+  "titleLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "联系表单"
+  },
+  "givenNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "名字"
+  },
+  "givenNameFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "请输入您的名字",
+    "TooltipText": "您的名字"
+  },
+  "familyNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "姓氏"
+  },
+  "familyNameFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "请输入您的姓氏",
+    "TooltipText": "您的姓氏"
+  },
+  "messageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "消息"
+  },
+  "messageAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "请在此处输入您的消息",
+    "TooltipText": "您的消息"
+  },
+  "languageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "语言"
+  },
+  "submitButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "提交",
+    "TooltipText": "提交表单"
+  },
+  "clearButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "清除",
+    "TooltipText": "清除所有字段"
+  },
+  "closeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "关闭",
+    "TooltipText": "关闭对话框"
+  },
+  "SubmittedTitle": "已提交",
+  "SubmittedText": "表单已成功提交。",
+  "SubmittedNameFormat": "谢谢您，{0} {1}。",
+  "OkButtonText": "确定"
+}

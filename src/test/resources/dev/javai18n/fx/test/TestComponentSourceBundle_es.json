@@ -1,0 +1,206 @@
+{
+  "TestButton":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Botón Test",
+    "TooltipText": "Información de herramienta botón test"
+  },
+  "TestCheckBox":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Casilla Test",
+    "TooltipText": "Información de herramienta casilla test"
+  },
+  "TestRadioButton":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Botón Radio Test",
+    "TooltipText": "Información de herramienta botón radio test"
+  },
+  "TestToggleButton":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Alternador Test",
+    "TooltipText": "Información de herramienta alternador test"
+  },
+  "TestHyperlink":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Enlace Test",
+    "TooltipText": "Información de herramienta enlace test"
+  },
+  "TestLabel":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Etiqueta Test",
+    "TooltipText": "Información de herramienta etiqueta test"
+  },
+  "TestTextField":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Introduzca texto",
+    "TooltipText": "Información de herramienta campo de texto test"
+  },
+  "TestPasswordField":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Introduzca la contraseña",
+    "TooltipText": "Información de herramienta campo de contraseña test"
+  },
+  "TestTextArea":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Introduzca el texto aquí",
+    "TooltipText": "Información de herramienta área de texto test"
+  },
+  "TestComboBox":
+  {
+    "type": "dev.javai18n.fx.ComboBoxPropertyBundle",
+    "PromptText": "Seleccione",
+    "Values": [
+      "Opción A",
+      "Opción B"
+    ],
+    "TooltipText": "Información de herramienta lista desplegable test"
+  },
+  "TestChoiceBox":
+  {
+    "type": "dev.javai18n.fx.ChoiceBoxPropertyBundle",
+    "Values": [
+      "Opción A",
+      "Opción B"
+    ]
+  },
+  "TestListView":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta vista de lista test"
+  },
+  "TestTableView":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta vista de tabla test"
+  },
+  "TestTreeView":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta vista de árbol test"
+  },
+  "TestTreeTableView":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta vista árbol-tabla test"
+  },
+  "TestSpinner":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta selector test"
+  },
+  "TestSlider":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta control deslizante test"
+  },
+  "TestProgressBar":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta barra de progreso test"
+  },
+  "TestProgressIndicator":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta indicador de progreso test"
+  },
+  "TestScrollBar":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta barra de desplazamiento test"
+  },
+  "TestScrollPane":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta panel de desplazamiento test"
+  },
+  "TestSplitPane":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta panel dividido test"
+  },
+  "TestTabPane":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta panel de pestañas test"
+  },
+  "TestTitledPane":
+  {
+    "type": "dev.javai18n.fx.TitledPanePropertyBundle",
+    "Text": "Título Test",
+    "TooltipText": "Información de herramienta panel con título test"
+  },
+  "TestAccordion":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta acordeón test"
+  },
+  "TestMenuBar":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta barra de menús test"
+  },
+  "TestToolBar":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta barra de herramientas test"
+  },
+  "TestSeparator":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta separador test"
+  },
+  "TestPagination":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Información de herramienta paginación test"
+  },
+  "TestHTMLEditor":
+  {
+    "type": "dev.javai18n.fx.NodePropertyBundle",
+    "Name": "test-html-editor-es"
+  },
+  "TestMenuItem":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Elemento Test"
+  },
+  "TestMenu":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Menú Test"
+  },
+  "TestCheckMenuItem":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Elemento Casilla Test"
+  },
+  "TestRadioMenuItem":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Elemento Radio Test"
+  },
+  "TestTab":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Pestaña Test",
+    "TooltipText": "Información de herramienta pestaña test"
+  },
+  "TestTableColumn":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Columna Test"
+  },
+  "TestTooltip":
+  {
+    "type": "dev.javai18n.fx.TooltipPropertyBundle",
+    "Text": "Texto de Información de Herramienta Test"
+  }
+}

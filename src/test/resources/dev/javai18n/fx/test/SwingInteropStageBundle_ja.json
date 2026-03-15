@@ -1,0 +1,69 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "Swing / FX 相互運用性"
+  },
+  "languageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "言語"
+  },
+  "swingInFxSectionProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "JavaFXに組み込まれたSwing"
+  },
+  "fxInSwingSectionProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Swingに組み込まれたJavaFX"
+  },
+  "swingLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "Swingラベル"
+  },
+  "swingButtonProps":
+  {
+    "type": "dev.javai18n.swing.AbstractButtonPropertyBundle",
+    "Text": "Swingボタン"
+  },
+  "swingLanguageLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "言語"
+  },
+  "swingFrameLabelProps":
+  {
+    "type": "dev.javai18n.swing.JLabelPropertyBundle",
+    "Text": "フレーム内のSwingラベル"
+  },
+  "embeddedFxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "FXラベル"
+  },
+  "embeddedFxButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "FXボタン"
+  },
+  "openSwingFrameButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Swingフレームを開く",
+    "TooltipText": "JavaFXコンテンツが組み込まれたSwing JFrameを開く"
+  },
+  "closeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "閉じる"
+  },
+  "swingFrameCloseButtonProps":
+  {
+    "type": "dev.javai18n.swing.AbstractButtonPropertyBundle",
+    "Text": "閉じる"
+  },
+  "SwingFrameTitle": "Swingに組み込まれたJavaFX"
+}

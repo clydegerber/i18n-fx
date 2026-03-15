@@ -1,0 +1,17 @@
+{
+  "demoPopupTitleProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "演示弹窗"
+  },
+  "demoPopupMessageProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "此弹窗是 LocalizablePopup。更改语言环境时，其内容将自动更新。"
+  },
+  "demoPopupCloseButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "关闭"
+  }
+}

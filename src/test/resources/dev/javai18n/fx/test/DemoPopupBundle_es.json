@@ -1,0 +1,17 @@
+{
+  "demoPopupTitleProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Demo de ventana emergente"
+  },
+  "demoPopupMessageProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Esta ventana es una LocalizablePopup. Su contenido se actualiza al cambiar el idioma."
+  },
+  "demoPopupCloseButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Cerrar"
+  }
+}

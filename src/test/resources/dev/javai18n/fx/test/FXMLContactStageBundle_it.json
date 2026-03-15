@@ -1,0 +1,72 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "Modulo di contatto — Demo FXML"
+  },
+  "titleLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Modulo di contatto"
+  },
+  "givenNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Nome"
+  },
+  "givenNameFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Inserisci il tuo nome",
+    "TooltipText": "Il tuo nome"
+  },
+  "familyNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Cognome"
+  },
+  "familyNameFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Inserisci il tuo cognome",
+    "TooltipText": "Il tuo cognome"
+  },
+  "messageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Messaggio"
+  },
+  "messageAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Inserisci il tuo messaggio qui",
+    "TooltipText": "Il tuo messaggio"
+  },
+  "languageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Lingua"
+  },
+  "submitButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Invia",
+    "TooltipText": "Invia il modulo"
+  },
+  "clearButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Cancella",
+    "TooltipText": "Cancella tutti i campi"
+  },
+  "closeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Chiudi",
+    "TooltipText": "Chiudi la finestra di dialogo"
+  },
+  "SubmittedTitle": "Inviato",
+  "SubmittedText": "Modulo inviato con successo.",
+  "SubmittedNameFormat": "Grazie, {0} {1}.",
+  "OkButtonText": "OK"
+}

@@ -1,0 +1,206 @@
+{
+  "TestButton":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Test Button",
+    "TooltipText": "Test button tooltip"
+  },
+  "TestCheckBox":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Test CheckBox",
+    "TooltipText": "Test checkbox tooltip"
+  },
+  "TestRadioButton":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Test RadioButton",
+    "TooltipText": "Test radio button tooltip"
+  },
+  "TestToggleButton":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Test Toggle",
+    "TooltipText": "Test toggle button tooltip"
+  },
+  "TestHyperlink":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Test Hyperlink",
+    "TooltipText": "Test hyperlink tooltip"
+  },
+  "TestLabel":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Test Label",
+    "TooltipText": "Test label tooltip"
+  },
+  "TestTextField":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Enter text",
+    "TooltipText": "Test text field tooltip"
+  },
+  "TestPasswordField":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Enter password",
+    "TooltipText": "Test password field tooltip"
+  },
+  "TestTextArea":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Enter text here",
+    "TooltipText": "Test text area tooltip"
+  },
+  "TestComboBox":
+  {
+    "type": "dev.javai18n.fx.ComboBoxPropertyBundle",
+    "PromptText": "Select option",
+    "Values": [
+      "Option A",
+      "Option B"
+    ],
+    "TooltipText": "Test combo box tooltip"
+  },
+  "TestChoiceBox":
+  {
+    "type": "dev.javai18n.fx.ChoiceBoxPropertyBundle",
+    "Values": [
+      "Choice A",
+      "Choice B"
+    ]
+  },
+  "TestListView":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test list view tooltip"
+  },
+  "TestTableView":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test table view tooltip"
+  },
+  "TestTreeView":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test tree view tooltip"
+  },
+  "TestTreeTableView":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test tree table view tooltip"
+  },
+  "TestSpinner":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test spinner tooltip"
+  },
+  "TestSlider":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test slider tooltip"
+  },
+  "TestProgressBar":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test progress bar tooltip"
+  },
+  "TestProgressIndicator":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test progress indicator tooltip"
+  },
+  "TestScrollBar":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test scroll bar tooltip"
+  },
+  "TestScrollPane":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test scroll pane tooltip"
+  },
+  "TestSplitPane":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test split pane tooltip"
+  },
+  "TestTabPane":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test tab pane tooltip"
+  },
+  "TestTitledPane":
+  {
+    "type": "dev.javai18n.fx.TitledPanePropertyBundle",
+    "Text": "Test Title",
+    "TooltipText": "Test titled pane tooltip"
+  },
+  "TestAccordion":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test accordion tooltip"
+  },
+  "TestMenuBar":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test menu bar tooltip"
+  },
+  "TestToolBar":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test toolbar tooltip"
+  },
+  "TestSeparator":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test separator tooltip"
+  },
+  "TestPagination":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "Test pagination tooltip"
+  },
+  "TestHTMLEditor":
+  {
+    "type": "dev.javai18n.fx.NodePropertyBundle",
+    "Name": "test-html-editor"
+  },
+  "TestMenuItem":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Test Item"
+  },
+  "TestMenu":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Test Menu"
+  },
+  "TestCheckMenuItem":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Test Check Item"
+  },
+  "TestRadioMenuItem":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Test Radio Item"
+  },
+  "TestTab":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Test Tab",
+    "TooltipText": "Test tab tooltip"
+  },
+  "TestTableColumn":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Test Column"
+  },
+  "TestTooltip":
+  {
+    "type": "dev.javai18n.fx.TooltipPropertyBundle",
+    "Text": "Test Tooltip Text"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "お問い合わせフォーム — FXML デモ"
+  },
+  "titleLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "お問い合わせフォーム"
+  },
+  "givenNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "名"
+  },
+  "givenNameFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "名を入力してください",
+    "TooltipText": "名"
+  },
+  "familyNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "姓"
+  },
+  "familyNameFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "姓を入力してください",
+    "TooltipText": "姓"
+  },
+  "messageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "メッセージ"
+  },
+  "messageAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "メッセージを入力してください",
+    "TooltipText": "メッセージ"
+  },
+  "languageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "言語"
+  },
+  "submitButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "送信",
+    "TooltipText": "フォームを送信する"
+  },
+  "clearButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "クリア",
+    "TooltipText": "すべてのフィールドをクリア"
+  },
+  "closeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "閉じる",
+    "TooltipText": "ダイアログを閉じる"
+  },
+  "SubmittedTitle": "送信完了",
+  "SubmittedText": "フォームが正常に送信されました。",
+  "SubmittedNameFormat": "{0} {1}様、ありがとうございます。",
+  "OkButtonText": "OK"
+}

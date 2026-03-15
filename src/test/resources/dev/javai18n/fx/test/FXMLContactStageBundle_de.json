@@ -1,0 +1,72 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "Kontaktformular — FXML-Demo"
+  },
+  "titleLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Kontaktformular"
+  },
+  "givenNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Vorname"
+  },
+  "givenNameFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Geben Sie Ihren Vornamen ein",
+    "TooltipText": "Ihr Vorname"
+  },
+  "familyNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Nachname"
+  },
+  "familyNameFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Geben Sie Ihren Nachnamen ein",
+    "TooltipText": "Ihr Nachname"
+  },
+  "messageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Nachricht"
+  },
+  "messageAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Geben Sie hier Ihre Nachricht ein",
+    "TooltipText": "Ihre Nachricht"
+  },
+  "languageLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Sprache"
+  },
+  "submitButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Senden",
+    "TooltipText": "Das Formular absenden"
+  },
+  "clearButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Zurücksetzen",
+    "TooltipText": "Alle Felder zurücksetzen"
+  },
+  "closeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Schließen",
+    "TooltipText": "Dialogfeld schließen"
+  },
+  "SubmittedTitle": "Gesendet",
+  "SubmittedText": "Formular erfolgreich gesendet.",
+  "SubmittedNameFormat": "Vielen Dank, {0} {1}.",
+  "OkButtonText": "OK"
+}

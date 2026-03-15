@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import dev.javai18n.fx.ResourcefulButton?>
+<?import dev.javai18n.fx.ResourcefulLabel?>
+<?import dev.javai18n.fx.ResourcefulTextArea?>
+<?import dev.javai18n.fx.ResourcefulTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<!--
+  Contact form FXML demo for i18n-fx.
+
+  Every ResourcefulXxx element is instantiated by FXMLLoader via its public no-arg
+  constructor (two-phase FXML initialization). The components have no locale source at
+  this point. FXMLContactController.postLoad(LocalizableStage) is called immediately
+  after FXMLLoader.load() to complete initialization via component.initialize(Resource).
+-->
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="dev.javai18n.fx.test.FXMLContactController"
+      spacing="16">
+  <padding>
+    <Insets top="20" right="20" bottom="20" left="20"/>
+  </padding>
+
+  <!-- Title — ResourcefulLabel, text supplied by bundle key titleLabelProps -->
+  <ResourcefulLabel fx:id="titleLabel" style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+
+  <GridPane hgap="12" vgap="10">
+    <columnConstraints>
+      <ColumnConstraints minWidth="120" prefWidth="140"/>
+      <ColumnConstraints hgrow="ALWAYS"/>
+    </columnConstraints>
+
+    <!-- Given name -->
+    <ResourcefulLabel     fx:id="givenNameLabel"
+        GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <ResourcefulTextField fx:id="givenNameField" maxWidth="Infinity"
+        GridPane.rowIndex="0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS"/>
+
+    <!-- Family name -->
+    <ResourcefulLabel     fx:id="familyNameLabel"
+        GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <ResourcefulTextField fx:id="familyNameField" maxWidth="Infinity"
+        GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS"/>
+
+    <!-- Message -->
+    <ResourcefulLabel    fx:id="messageLabel"
+        GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.valignment="TOP"/>
+    <ResourcefulTextArea fx:id="messageArea" prefRowCount="4" wrapText="true" maxWidth="Infinity"
+        GridPane.rowIndex="2" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS"/>
+
+    <!-- Language selector — plain ChoiceBox, populated programmatically in postLoad() -->
+    <ResourcefulLabel fx:id="languageLabel"
+        GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <ChoiceBox fx:id="localeChoice" maxWidth="Infinity"
+        GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+  </GridPane>
+
+  <HBox spacing="10" alignment="CENTER_LEFT">
+    <ResourcefulButton fx:id="closeButton"  onAction="#handleClose"/>
+    <Region HBox.hgrow="ALWAYS"/>
+    <ResourcefulButton fx:id="clearButton"  onAction="#handleClear"/>
+    <ResourcefulButton fx:id="submitButton" onAction="#handleSubmit"/>
+  </HBox>
+</VBox>

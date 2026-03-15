@@ -1,0 +1,576 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "文件浏览器 FX"
+  },
+  "menuBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "应用程序菜单栏",
+    "AccessibleText": "应用程序菜单栏"
+  },
+  "fileMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "文件"
+  },
+  "newFolderMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "新建文件夹"
+  },
+  "deleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "删除"
+  },
+  "exitMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "退出"
+  },
+  "editMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "编辑"
+  },
+  "copyMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "复制"
+  },
+  "cutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "剪切"
+  },
+  "pasteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "粘贴"
+  },
+  "selectAllMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "全选"
+  },
+  "viewMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "查看"
+  },
+  "refreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "刷新"
+  },
+  "sortByMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "排序方式"
+  },
+  "sortByNameRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "名称"
+  },
+  "sortBySizeRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "大小"
+  },
+  "sortByDateRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "修改日期"
+  },
+  "sortAscendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "升序"
+  },
+  "sortDescendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "降序"
+  },
+  "showHiddenMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "显示隐藏文件"
+  },
+  "showExtensionsMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "显示文件扩展名"
+  },
+  "filterMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "筛选"
+  },
+  "allFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "所有文件"
+  },
+  "dirsOnlyRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "仅目录"
+  },
+  "allFileTypesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "所有类型"
+  },
+  "textFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "文本文件"
+  },
+  "imageFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "图像文件"
+  },
+  "preferencesMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "首选项"
+  },
+  "localeMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "语言环境"
+  },
+  "localeSetMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "语言环境集"
+  },
+  "loggerLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "日志记录器语言环境"
+  },
+  "allLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "所有 JVM 语言环境"
+  },
+  "loggerLocaleMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "日志记录器语言环境"
+  },
+  "jvmDefaultLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "JVM 默认值"
+  },
+  "currentLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "当前选择"
+  },
+  "helpMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "帮助"
+  },
+  "aboutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "关于"
+  },
+  "navToolBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "导航工具栏",
+    "TooltipText": "导航工具栏"
+  },
+  "backButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "返回",
+    "TooltipText": "后退"
+  },
+  "forwardButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "前进",
+    "TooltipText": "前进"
+  },
+  "upButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "上一级",
+    "TooltipText": "返回上一级"
+  },
+  "homeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "主页",
+    "TooltipText": "转到主目录"
+  },
+  "refreshButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "刷新",
+    "TooltipText": "刷新当前目录"
+  },
+  "newFolderButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "新建文件夹",
+    "TooltipText": "创建新文件夹"
+  },
+  "toolBarSeparatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "工具栏分隔符"
+  },
+  "listViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "列表",
+    "TooltipText": "列表视图"
+  },
+  "detailViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "详细",
+    "TooltipText": "详细视图"
+  },
+  "pathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "路径:"
+  },
+  "pathFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "输入要导航的路径"
+  },
+  "mainSplitPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "主拆分窗格",
+    "TooltipText": "主内容区域"
+  },
+  "treeScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "目录树滚动窗格"
+  },
+  "contentTabPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "内容选项卡窗格"
+  },
+  "filesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "文件",
+    "TooltipText": "文件列表"
+  },
+  "previewTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "预览",
+    "TooltipText": "文件预览"
+  },
+  "propertiesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "属性",
+    "TooltipText": "文件属性"
+  },
+  "widgetsTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "小部件",
+    "TooltipText": "Resourceful 小部件演示"
+  },
+  "fileTableProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "文件表格",
+    "TooltipText": "文件列表表格"
+  },
+  "nameColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "名称"
+  },
+  "sizeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "大小"
+  },
+  "typeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "类型"
+  },
+  "dateColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "修改日期"
+  },
+  "fileListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "文件列表视图",
+    "TooltipText": "目录内容的图标视图"
+  },
+  "tableScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "表格滚动窗格"
+  },
+  "listScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "列表滚动窗格"
+  },
+  "previewTextAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "选择文件以预览"
+  },
+  "fileNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "名称: {0}"
+  },
+  "fileSizeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "大小: {0}"
+  },
+  "fileTypeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "类型: {0}"
+  },
+  "fileModifiedLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "修改时间: {0}"
+  },
+  "filePathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "位置: {0}"
+  },
+  "readOnlyCheckBoxProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "只读"
+  },
+  "quickInfoTitledPaneProps":
+  {
+    "type": "dev.javai18n.fx.TitledPanePropertyBundle",
+    "Text": "快速信息"
+  },
+  "infoContentLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "选择文件以查看信息"
+  },
+  "fileCountLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "0 个项目"
+  },
+  "popupRefreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "刷新"
+  },
+  "popupPropertiesMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "属性"
+  },
+  "popupDeleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "删除"
+  },
+  "demoPasswordLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "密码:"
+  },
+  "demoPasswordFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "输入密码...",
+    "TooltipText": "ResourcefulPasswordField — 语言环境更改时提示文本更新"
+  },
+  "demoSearchLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "搜索:"
+  },
+  "demoSearchFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "搜索文件...",
+    "TooltipText": "ResourcefulTextField — 语言环境更改时提示文本更新"
+  },
+  "demoSpinnerLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "数量:"
+  },
+  "demoSpinnerProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSpinner — 语言环境更改时无障碍文本更新"
+  },
+  "demoSliderLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "值:"
+  },
+  "demoSliderProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSlider — 语言环境更改时工具提示更新"
+  },
+  "demoChoiceBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "排序:"
+  },
+  "demoChoiceBoxProps":
+  {
+    "type": "dev.javai18n.fx.ChoiceBoxPropertyBundle",
+    "Values": [
+      "名称",
+      "大小",
+      "修改日期"
+    ]
+  },
+  "demoComboBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "筛选:"
+  },
+  "demoComboBoxProps":
+  {
+    "type": "dev.javai18n.fx.ComboBoxPropertyBundle",
+    "PromptText": "选择筛选器...",
+    "Values": [
+      "所有文件",
+      "文本文件",
+      "图像文件"
+    ]
+  },
+  "demoDayListLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "星期:"
+  },
+  "demoDayListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "星期名称列表",
+    "TooltipText": "ResourcefulListView — 语言环境更改时从本地符号更新项目"
+  },
+  "demoProgressBarLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "进度:"
+  },
+  "demoProgressBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressBar (65%)"
+  },
+  "demoProgressIndicatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressIndicator (65%)"
+  },
+  "demoToggleButtonLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "模式:"
+  },
+  "demoToggleButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "已启用",
+    "TooltipText": "ResourcefulToggleButton"
+  },
+  "demoPaginationLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "页码:"
+  },
+  "demoPaginationProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulPagination"
+  },
+  "demoHyperlinkLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "信息:"
+  },
+  "demoHyperlinkProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "了解更多关于 i18n-fx 的信息",
+    "TooltipText": "ResourcefulHyperlink"
+  },
+  "ItemCountFormat": "{0} 个项目",
+  "ComputingSizesFormat": "正在计算文件夹大小 ({0} / {1})...",
+  "FileTooLargeFormat": "文件太大，无法预览 ({0})",
+  "CannotReadFileFormat": "无法读取文件: {0}",
+  "FolderNamePromptText": "文件夹名称:",
+  "ConfirmDeleteTitle": "确认删除",
+  "ConfirmDeleteFormat": "删除 {0}？",
+  "YesText": "是",
+  "NoText": "否",
+  "DirectoryTypeText": "目录",
+  "FileTypeSuffixFormat": "{0} 文件",
+  "GenericFileTypeText": "文件",
+  "BytesSuffix": " B",
+  "KilobytesSuffix": " KB",
+  "MegabytesSuffix": " MB",
+  "AboutTitle": "关于文件浏览器 FX",
+  "AboutHeader": "i18n-fx 演示应用程序",
+  "AboutMessage": "一个 JavaFX 文件浏览器，展示 i18n-fx 库的语言环境感知组件。\n\n通过首选项 > 语言环境更改语言环境，即可看到所有标签、菜单、选项卡和小部件自动更新。",
+  "DemoSliderTooltipFormat": "值: {0}",
+  "OkButtonText": "确定",
+  "CancelButtonText": "取消",
+  "DeleteFailedTitle": "删除失败",
+  "DeleteFailedFormat": "无法删除 {0}。",
+  "fxmlDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "FXML 演示…"
+  },
+  "swingInteropDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Swing互操作演示…"
+  },
+  "showPopupLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "弹窗"
+  },
+  "showPopupButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "显示演示弹窗"
+  }
+}

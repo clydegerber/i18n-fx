@@ -1,0 +1,7 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "FX 测试应用程序"
+  }
+}

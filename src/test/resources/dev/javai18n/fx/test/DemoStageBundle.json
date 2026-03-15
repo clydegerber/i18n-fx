@@ -1,0 +1,576 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "File Explorer FX"
+  },
+  "menuBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Application Menu Bar",
+    "AccessibleText": "Application menu bar"
+  },
+  "fileMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "File"
+  },
+  "newFolderMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "New Folder"
+  },
+  "deleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Delete"
+  },
+  "exitMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Exit"
+  },
+  "editMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Edit"
+  },
+  "copyMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Copy"
+  },
+  "cutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Cut"
+  },
+  "pasteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Paste"
+  },
+  "selectAllMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Select All"
+  },
+  "viewMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "View"
+  },
+  "refreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Refresh"
+  },
+  "sortByMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Sort By"
+  },
+  "sortByNameRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Name"
+  },
+  "sortBySizeRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Size"
+  },
+  "sortByDateRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Date Modified"
+  },
+  "sortAscendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Ascending"
+  },
+  "sortDescendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Descending"
+  },
+  "showHiddenMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Show Hidden Files"
+  },
+  "showExtensionsMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Show File Extensions"
+  },
+  "filterMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Filter"
+  },
+  "allFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "All Files"
+  },
+  "dirsOnlyRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Directories Only"
+  },
+  "allFileTypesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "All Types"
+  },
+  "textFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Text Files"
+  },
+  "imageFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Image Files"
+  },
+  "preferencesMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Preferences"
+  },
+  "localeMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Locale"
+  },
+  "localeSetMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Locale Set"
+  },
+  "loggerLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Logger Locales"
+  },
+  "allLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "All JVM Locales"
+  },
+  "loggerLocaleMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Logger Locale"
+  },
+  "jvmDefaultLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "JVM Default"
+  },
+  "currentLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Current Selection"
+  },
+  "helpMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Help"
+  },
+  "aboutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "About"
+  },
+  "navToolBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Navigation Toolbar",
+    "TooltipText": "Navigation toolbar"
+  },
+  "backButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Back",
+    "TooltipText": "Go back"
+  },
+  "forwardButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Forward",
+    "TooltipText": "Go forward"
+  },
+  "upButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Up",
+    "TooltipText": "Go up one level"
+  },
+  "homeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Home",
+    "TooltipText": "Go to home directory"
+  },
+  "refreshButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Refresh",
+    "TooltipText": "Refresh current directory"
+  },
+  "newFolderButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "New Folder",
+    "TooltipText": "Create a new folder"
+  },
+  "toolBarSeparatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Toolbar Separator"
+  },
+  "listViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "List",
+    "TooltipText": "List view"
+  },
+  "detailViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Detail",
+    "TooltipText": "Detail view"
+  },
+  "pathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Path:"
+  },
+  "pathFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Enter path to navigate"
+  },
+  "mainSplitPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Main Split Pane",
+    "TooltipText": "Main content area"
+  },
+  "treeScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Directory Tree Scroll Pane"
+  },
+  "contentTabPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Content Tab Pane"
+  },
+  "filesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Files",
+    "TooltipText": "File listing"
+  },
+  "previewTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Preview",
+    "TooltipText": "File preview"
+  },
+  "propertiesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Properties",
+    "TooltipText": "File properties"
+  },
+  "widgetsTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Widgets",
+    "TooltipText": "Resourceful widget demonstrations"
+  },
+  "fileTableProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "File Table",
+    "TooltipText": "File listing table"
+  },
+  "nameColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Name"
+  },
+  "sizeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Size"
+  },
+  "typeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Type"
+  },
+  "dateColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Date Modified"
+  },
+  "fileListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "File List View",
+    "TooltipText": "Icon view of directory contents"
+  },
+  "tableScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Table Scroll Pane"
+  },
+  "listScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "List Scroll Pane"
+  },
+  "previewTextAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Select a file to preview"
+  },
+  "fileNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Name: {0}"
+  },
+  "fileSizeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Size: {0}"
+  },
+  "fileTypeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Type: {0}"
+  },
+  "fileModifiedLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Modified: {0}"
+  },
+  "filePathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Location: {0}"
+  },
+  "readOnlyCheckBoxProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Read-only"
+  },
+  "quickInfoTitledPaneProps":
+  {
+    "type": "dev.javai18n.fx.TitledPanePropertyBundle",
+    "Text": "Quick Info"
+  },
+  "infoContentLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Select a file to view info"
+  },
+  "fileCountLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "0 items"
+  },
+  "popupRefreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Refresh"
+  },
+  "popupPropertiesMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Properties"
+  },
+  "popupDeleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Delete"
+  },
+  "demoPasswordLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Password:"
+  },
+  "demoPasswordFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Enter password...",
+    "TooltipText": "ResourcefulPasswordField — prompt text updates on locale change"
+  },
+  "demoSearchLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Search:"
+  },
+  "demoSearchFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Search files...",
+    "TooltipText": "ResourcefulTextField — prompt text updates on locale change"
+  },
+  "demoSpinnerLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Count:"
+  },
+  "demoSpinnerProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSpinner — accessible text updates on locale change"
+  },
+  "demoSliderLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Value:"
+  },
+  "demoSliderProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSlider — tooltip updates on locale change"
+  },
+  "demoChoiceBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Sort:"
+  },
+  "demoChoiceBoxProps":
+  {
+    "type": "dev.javai18n.fx.ChoiceBoxPropertyBundle",
+    "Values": [
+      "Name",
+      "Size",
+      "Date Modified"
+    ]
+  },
+  "demoComboBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Filter:"
+  },
+  "demoComboBoxProps":
+  {
+    "type": "dev.javai18n.fx.ComboBoxPropertyBundle",
+    "PromptText": "Select filter...",
+    "Values": [
+      "All Files",
+      "Text Files",
+      "Image Files"
+    ]
+  },
+  "demoDayListLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Days:"
+  },
+  "demoDayListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Day Names List",
+    "TooltipText": "ResourcefulListView — items refreshed from locale symbols on locale change"
+  },
+  "demoProgressBarLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Progress:"
+  },
+  "demoProgressBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressBar (65%)"
+  },
+  "demoProgressIndicatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressIndicator (65%)"
+  },
+  "demoToggleButtonLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Mode:"
+  },
+  "demoToggleButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Enabled",
+    "TooltipText": "ResourcefulToggleButton"
+  },
+  "demoPaginationLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Page:"
+  },
+  "demoPaginationProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulPagination"
+  },
+  "demoHyperlinkLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Info:"
+  },
+  "demoHyperlinkProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Learn more about i18n-fx",
+    "TooltipText": "ResourcefulHyperlink"
+  },
+  "ItemCountFormat": "{0} items",
+  "ComputingSizesFormat": "Computing directory sizes ({0} of {1})...",
+  "FileTooLargeFormat": "File too large to preview ({0})",
+  "CannotReadFileFormat": "Cannot read file: {0}",
+  "FolderNamePromptText": "Folder name:",
+  "ConfirmDeleteTitle": "Confirm Delete",
+  "ConfirmDeleteFormat": "Delete {0}?",
+  "YesText": "Yes",
+  "NoText": "No",
+  "DirectoryTypeText": "Directory",
+  "FileTypeSuffixFormat": "{0} File",
+  "GenericFileTypeText": "File",
+  "BytesSuffix": " B",
+  "KilobytesSuffix": " KB",
+  "MegabytesSuffix": " MB",
+  "AboutTitle": "About File Explorer FX",
+  "AboutHeader": "i18n-fx Demo Application",
+  "AboutMessage": "A JavaFX file explorer demonstrating locale-aware components from the i18n-fx library.\n\nChange the locale via Preferences > Locale to see all labels, menus, tabs, and widgets update automatically.",
+  "DemoSliderTooltipFormat": "Value: {0}",
+  "OkButtonText": "OK",
+  "CancelButtonText": "Cancel",
+  "DeleteFailedTitle": "Delete Failed",
+  "DeleteFailedFormat": "Could not delete {0}.",
+  "fxmlDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "FXML Demo…"
+  },
+  "swingInteropDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Swing Interop Demo…"
+  },
+  "showPopupLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Popup"
+  },
+  "showPopupButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Show Demo Popup"
+  }
+}

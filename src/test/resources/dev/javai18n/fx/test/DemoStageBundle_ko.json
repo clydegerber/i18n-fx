@@ -1,0 +1,576 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "파일 탐색기 FX"
+  },
+  "menuBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "응용 프로그램 메뉴 모음",
+    "AccessibleText": "응용 프로그램 메뉴 모음"
+  },
+  "fileMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "파일"
+  },
+  "newFolderMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "새 폴더"
+  },
+  "deleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "삭제"
+  },
+  "exitMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "종료"
+  },
+  "editMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "편집"
+  },
+  "copyMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "복사"
+  },
+  "cutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "잘라내기"
+  },
+  "pasteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "붙여넣기"
+  },
+  "selectAllMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "모두 선택"
+  },
+  "viewMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "보기"
+  },
+  "refreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "새로 고침"
+  },
+  "sortByMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "정렬 기준"
+  },
+  "sortByNameRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "이름"
+  },
+  "sortBySizeRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "크기"
+  },
+  "sortByDateRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "수정 날짜"
+  },
+  "sortAscendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "오름차순"
+  },
+  "sortDescendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "내림차순"
+  },
+  "showHiddenMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "숨김 파일 표시"
+  },
+  "showExtensionsMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "파일 확장자 표시"
+  },
+  "filterMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "필터"
+  },
+  "allFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "모든 파일"
+  },
+  "dirsOnlyRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "디렉터리만"
+  },
+  "allFileTypesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "모든 유형"
+  },
+  "textFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "텍스트 파일"
+  },
+  "imageFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "이미지 파일"
+  },
+  "preferencesMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "환경 설정"
+  },
+  "localeMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "로케일"
+  },
+  "localeSetMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "로케일 집합"
+  },
+  "loggerLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "로거 로케일"
+  },
+  "allLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "모든 JVM 로케일"
+  },
+  "loggerLocaleMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "로거 로케일"
+  },
+  "jvmDefaultLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "JVM 기본값"
+  },
+  "currentLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "현재 선택"
+  },
+  "helpMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "도움말"
+  },
+  "aboutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "정보"
+  },
+  "navToolBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "탐색 도구 모음",
+    "TooltipText": "탐색 도구 모음"
+  },
+  "backButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "뒤로",
+    "TooltipText": "뒤로 가기"
+  },
+  "forwardButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "앞으로",
+    "TooltipText": "앞으로 가기"
+  },
+  "upButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "위로",
+    "TooltipText": "한 단계 위로"
+  },
+  "homeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "홈",
+    "TooltipText": "홈 디렉터리로"
+  },
+  "refreshButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "새로 고침",
+    "TooltipText": "현재 디렉터리 새로 고침"
+  },
+  "newFolderButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "새 폴더",
+    "TooltipText": "새 폴더 만들기"
+  },
+  "toolBarSeparatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "도구 모음 구분선"
+  },
+  "listViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "목록",
+    "TooltipText": "목록 보기"
+  },
+  "detailViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "자세히",
+    "TooltipText": "자세히 보기"
+  },
+  "pathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "경로:"
+  },
+  "pathFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "이동할 경로 입력"
+  },
+  "mainSplitPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "기본 분할 창",
+    "TooltipText": "기본 콘텐츠 영역"
+  },
+  "treeScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "디렉터리 트리 스크롤 창"
+  },
+  "contentTabPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "콘텐츠 탭 창"
+  },
+  "filesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "파일",
+    "TooltipText": "파일 목록"
+  },
+  "previewTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "미리 보기",
+    "TooltipText": "파일 미리 보기"
+  },
+  "propertiesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "속성",
+    "TooltipText": "파일 속성"
+  },
+  "widgetsTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "위젯",
+    "TooltipText": "Resourceful 위젯 데모"
+  },
+  "fileTableProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "파일 테이블",
+    "TooltipText": "파일 목록 테이블"
+  },
+  "nameColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "이름"
+  },
+  "sizeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "크기"
+  },
+  "typeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "유형"
+  },
+  "dateColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "수정 날짜"
+  },
+  "fileListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "파일 목록 보기",
+    "TooltipText": "디렉터리 내용의 아이콘 보기"
+  },
+  "tableScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "테이블 스크롤 창"
+  },
+  "listScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "목록 스크롤 창"
+  },
+  "previewTextAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "미리 볼 파일 선택"
+  },
+  "fileNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "이름: {0}"
+  },
+  "fileSizeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "크기: {0}"
+  },
+  "fileTypeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "유형: {0}"
+  },
+  "fileModifiedLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "수정됨: {0}"
+  },
+  "filePathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "위치: {0}"
+  },
+  "readOnlyCheckBoxProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "읽기 전용"
+  },
+  "quickInfoTitledPaneProps":
+  {
+    "type": "dev.javai18n.fx.TitledPanePropertyBundle",
+    "Text": "빠른 정보"
+  },
+  "infoContentLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "정보를 볼 파일 선택"
+  },
+  "fileCountLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "0개 항목"
+  },
+  "popupRefreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "새로 고침"
+  },
+  "popupPropertiesMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "속성"
+  },
+  "popupDeleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "삭제"
+  },
+  "demoPasswordLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "비밀번호:"
+  },
+  "demoPasswordFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "비밀번호 입력...",
+    "TooltipText": "ResourcefulPasswordField — 로케일 변경 시 프롬프트 텍스트가 업데이트됩니다"
+  },
+  "demoSearchLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "검색:"
+  },
+  "demoSearchFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "파일 검색...",
+    "TooltipText": "ResourcefulTextField — 로케일 변경 시 프롬프트 텍스트가 업데이트됩니다"
+  },
+  "demoSpinnerLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "개수:"
+  },
+  "demoSpinnerProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSpinner — 로케일 변경 시 접근성 텍스트가 업데이트됩니다"
+  },
+  "demoSliderLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "값:"
+  },
+  "demoSliderProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSlider — 로케일 변경 시 툴팁이 업데이트됩니다"
+  },
+  "demoChoiceBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "정렬:"
+  },
+  "demoChoiceBoxProps":
+  {
+    "type": "dev.javai18n.fx.ChoiceBoxPropertyBundle",
+    "Values": [
+      "이름",
+      "크기",
+      "수정 날짜"
+    ]
+  },
+  "demoComboBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "필터:"
+  },
+  "demoComboBoxProps":
+  {
+    "type": "dev.javai18n.fx.ComboBoxPropertyBundle",
+    "PromptText": "필터 선택...",
+    "Values": [
+      "모든 파일",
+      "텍스트 파일",
+      "이미지 파일"
+    ]
+  },
+  "demoDayListLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "요일:"
+  },
+  "demoDayListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "요일 이름 목록",
+    "TooltipText": "ResourcefulListView — 로케일 변경 시 로케일 기호에서 항목이 업데이트됩니다"
+  },
+  "demoProgressBarLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "진행률:"
+  },
+  "demoProgressBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressBar (65%)"
+  },
+  "demoProgressIndicatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressIndicator (65%)"
+  },
+  "demoToggleButtonLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "모드:"
+  },
+  "demoToggleButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "사용",
+    "TooltipText": "ResourcefulToggleButton"
+  },
+  "demoPaginationLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "페이지:"
+  },
+  "demoPaginationProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulPagination"
+  },
+  "demoHyperlinkLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "정보:"
+  },
+  "demoHyperlinkProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "i18n-fx에 대해 자세히 알아보기",
+    "TooltipText": "ResourcefulHyperlink"
+  },
+  "ItemCountFormat": "{0}개 항목",
+  "ComputingSizesFormat": "폴더 크기 계산 중 ({0} / {1})...",
+  "FileTooLargeFormat": "파일이 너무 커서 미리 볼 수 없습니다 ({0})",
+  "CannotReadFileFormat": "파일을 읽을 수 없습니다: {0}",
+  "FolderNamePromptText": "폴더 이름:",
+  "ConfirmDeleteTitle": "삭제 확인",
+  "ConfirmDeleteFormat": "{0}을(를) 삭제하시겠습니까?",
+  "YesText": "예",
+  "NoText": "아니요",
+  "DirectoryTypeText": "디렉터리",
+  "FileTypeSuffixFormat": "{0} 파일",
+  "GenericFileTypeText": "파일",
+  "BytesSuffix": " B",
+  "KilobytesSuffix": " KB",
+  "MegabytesSuffix": " MB",
+  "AboutTitle": "파일 탐색기 FX 정보",
+  "AboutHeader": "i18n-fx 데모 애플리케이션",
+  "AboutMessage": "i18n-fx 라이브러리의 로케일 인식 컴포넌트를 시연하는 JavaFX 파일 탐색기입니다.\n\n환경 설정 > 로케일을 통해 로케일을 변경하면 모든 레이블, 메뉴, 탭, 위젯이 자동으로 업데이트됩니다.",
+  "DemoSliderTooltipFormat": "값: {0}",
+  "OkButtonText": "확인",
+  "CancelButtonText": "취소",
+  "DeleteFailedTitle": "삭제 실패",
+  "DeleteFailedFormat": "{0}을(를) 삭제할 수 없습니다.",
+  "fxmlDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "FXML 데모…"
+  },
+  "swingInteropDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Swing 상호 운용 데모…"
+  },
+  "showPopupLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "팝업"
+  },
+  "showPopupButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "데모 팝업 표시"
+  }
+}

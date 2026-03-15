@@ -1,0 +1,576 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "ファイルエクスプローラー FX"
+  },
+  "menuBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "アプリケーションメニューバー",
+    "AccessibleText": "アプリケーションメニューバー"
+  },
+  "fileMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "ファイル"
+  },
+  "newFolderMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "新しいフォルダ"
+  },
+  "deleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "削除"
+  },
+  "exitMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "終了"
+  },
+  "editMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "編集"
+  },
+  "copyMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "コピー"
+  },
+  "cutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "切り取り"
+  },
+  "pasteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "貼り付け"
+  },
+  "selectAllMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "すべて選択"
+  },
+  "viewMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "表示"
+  },
+  "refreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "更新"
+  },
+  "sortByMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "並び替え"
+  },
+  "sortByNameRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "名前"
+  },
+  "sortBySizeRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "サイズ"
+  },
+  "sortByDateRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "更新日時"
+  },
+  "sortAscendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "昇順"
+  },
+  "sortDescendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "降順"
+  },
+  "showHiddenMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "隠しファイルを表示"
+  },
+  "showExtensionsMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "ファイル拡張子を表示"
+  },
+  "filterMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "フィルター"
+  },
+  "allFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "すべてのファイル"
+  },
+  "dirsOnlyRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "ディレクトリのみ"
+  },
+  "allFileTypesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "すべての種類"
+  },
+  "textFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "テキストファイル"
+  },
+  "imageFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "画像ファイル"
+  },
+  "preferencesMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "設定"
+  },
+  "localeMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "ロケール"
+  },
+  "localeSetMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "ロケールセット"
+  },
+  "loggerLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "ロガーロケール"
+  },
+  "allLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "すべての JVM ロケール"
+  },
+  "loggerLocaleMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "ロガーロケール"
+  },
+  "jvmDefaultLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "JVM デフォルト"
+  },
+  "currentLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "現在の選択"
+  },
+  "helpMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "ヘルプ"
+  },
+  "aboutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "このアプリについて"
+  },
+  "navToolBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "ナビゲーションツールバー",
+    "TooltipText": "ナビゲーションツールバー"
+  },
+  "backButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "戻る",
+    "TooltipText": "前に戻る"
+  },
+  "forwardButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "進む",
+    "TooltipText": "前に進む"
+  },
+  "upButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "上へ",
+    "TooltipText": "一つ上のレベルへ"
+  },
+  "homeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "ホーム",
+    "TooltipText": "ホームディレクトリへ"
+  },
+  "refreshButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "更新",
+    "TooltipText": "現在のディレクトリを更新"
+  },
+  "newFolderButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "新しいフォルダ",
+    "TooltipText": "新しいフォルダを作成"
+  },
+  "toolBarSeparatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "ツールバーセパレーター"
+  },
+  "listViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "リスト",
+    "TooltipText": "リスト表示"
+  },
+  "detailViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "詳細",
+    "TooltipText": "詳細表示"
+  },
+  "pathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "パス:"
+  },
+  "pathFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "移動するパスを入力"
+  },
+  "mainSplitPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "メインスプリットペイン",
+    "TooltipText": "メインコンテンツエリア"
+  },
+  "treeScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "ディレクトリツリースクロールペイン"
+  },
+  "contentTabPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "コンテンツタブペイン"
+  },
+  "filesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "ファイル",
+    "TooltipText": "ファイル一覧"
+  },
+  "previewTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "プレビュー",
+    "TooltipText": "ファイルプレビュー"
+  },
+  "propertiesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "プロパティ",
+    "TooltipText": "ファイルのプロパティ"
+  },
+  "widgetsTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "ウィジェット",
+    "TooltipText": "Resourceful ウィジェットのデモ"
+  },
+  "fileTableProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "ファイルテーブル",
+    "TooltipText": "ファイル一覧テーブル"
+  },
+  "nameColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "名前"
+  },
+  "sizeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "サイズ"
+  },
+  "typeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "種類"
+  },
+  "dateColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "更新日時"
+  },
+  "fileListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "ファイルリストビュー",
+    "TooltipText": "ディレクトリ内容のアイコン表示"
+  },
+  "tableScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "テーブルスクロールペイン"
+  },
+  "listScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "リストスクロールペイン"
+  },
+  "previewTextAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "プレビューするファイルを選択"
+  },
+  "fileNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "名前: {0}"
+  },
+  "fileSizeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "サイズ: {0}"
+  },
+  "fileTypeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "種類: {0}"
+  },
+  "fileModifiedLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "更新日時: {0}"
+  },
+  "filePathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "場所: {0}"
+  },
+  "readOnlyCheckBoxProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "読み取り専用"
+  },
+  "quickInfoTitledPaneProps":
+  {
+    "type": "dev.javai18n.fx.TitledPanePropertyBundle",
+    "Text": "クイック情報"
+  },
+  "infoContentLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "情報を表示するファイルを選択"
+  },
+  "fileCountLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "0 件"
+  },
+  "popupRefreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "更新"
+  },
+  "popupPropertiesMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "プロパティ"
+  },
+  "popupDeleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "削除"
+  },
+  "demoPasswordLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "パスワード:"
+  },
+  "demoPasswordFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "パスワードを入力...",
+    "TooltipText": "ResourcefulPasswordField — ロケール変更時にプロンプトテキストが更新されます"
+  },
+  "demoSearchLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "検索:"
+  },
+  "demoSearchFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "ファイルを検索...",
+    "TooltipText": "ResourcefulTextField — ロケール変更時にプロンプトテキストが更新されます"
+  },
+  "demoSpinnerLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "数:"
+  },
+  "demoSpinnerProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSpinner — ロケール変更時にアクセシブルテキストが更新されます"
+  },
+  "demoSliderLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "値:"
+  },
+  "demoSliderProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSlider — ロケール変更時にツールチップが更新されます"
+  },
+  "demoChoiceBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "並び替え:"
+  },
+  "demoChoiceBoxProps":
+  {
+    "type": "dev.javai18n.fx.ChoiceBoxPropertyBundle",
+    "Values": [
+      "名前",
+      "サイズ",
+      "更新日時"
+    ]
+  },
+  "demoComboBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "フィルター:"
+  },
+  "demoComboBoxProps":
+  {
+    "type": "dev.javai18n.fx.ComboBoxPropertyBundle",
+    "PromptText": "フィルターを選択...",
+    "Values": [
+      "すべてのファイル",
+      "テキストファイル",
+      "画像ファイル"
+    ]
+  },
+  "demoDayListLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "曜日:"
+  },
+  "demoDayListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "曜日名リスト",
+    "TooltipText": "ResourcefulListView — ロケール変更時にロケールシンボルからアイテムが更新されます"
+  },
+  "demoProgressBarLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "進捗:"
+  },
+  "demoProgressBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressBar (65%)"
+  },
+  "demoProgressIndicatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressIndicator (65%)"
+  },
+  "demoToggleButtonLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "モード:"
+  },
+  "demoToggleButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "有効",
+    "TooltipText": "ResourcefulToggleButton"
+  },
+  "demoPaginationLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "ページ:"
+  },
+  "demoPaginationProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulPagination"
+  },
+  "demoHyperlinkLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "情報:"
+  },
+  "demoHyperlinkProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "i18n-fx についての詳細",
+    "TooltipText": "ResourcefulHyperlink"
+  },
+  "ItemCountFormat": "{0} 件",
+  "ComputingSizesFormat": "フォルダサイズを計算中 ({0} / {1})...",
+  "FileTooLargeFormat": "ファイルが大きすぎてプレビューできません ({0})",
+  "CannotReadFileFormat": "ファイルを読み取れません: {0}",
+  "FolderNamePromptText": "フォルダ名:",
+  "ConfirmDeleteTitle": "削除の確認",
+  "ConfirmDeleteFormat": "{0} を削除しますか?",
+  "YesText": "はい",
+  "NoText": "いいえ",
+  "DirectoryTypeText": "ディレクトリ",
+  "FileTypeSuffixFormat": "{0} ファイル",
+  "GenericFileTypeText": "ファイル",
+  "BytesSuffix": " B",
+  "KilobytesSuffix": " KB",
+  "MegabytesSuffix": " MB",
+  "AboutTitle": "ファイルエクスプローラー FX について",
+  "AboutHeader": "i18n-fx デモアプリケーション",
+  "AboutMessage": "i18n-fx ライブラリのロケール対応コンポーネントを実演する JavaFX ファイルエクスプローラーです。\n\n設定 > ロケール からロケールを変更すると、すべてのラベル、メニュー、タブ、ウィジェットが自動的に更新されます。",
+  "DemoSliderTooltipFormat": "値: {0}",
+  "OkButtonText": "OK",
+  "CancelButtonText": "キャンセル",
+  "DeleteFailedTitle": "削除に失敗しました",
+  "DeleteFailedFormat": "{0} を削除できませんでした。",
+  "fxmlDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "FXML デモ…"
+  },
+  "swingInteropDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Swing 相互運用デモ…"
+  },
+  "showPopupLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "ポップアップ"
+  },
+  "showPopupButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "デモポップアップを表示"
+  }
+}

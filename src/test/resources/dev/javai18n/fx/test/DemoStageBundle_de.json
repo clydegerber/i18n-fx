@@ -1,0 +1,576 @@
+{
+  "stageProperties":
+  {
+    "type": "dev.javai18n.fx.StagePropertyBundle",
+    "Title": "Datei-Explorer FX"
+  },
+  "menuBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Anwendungsmenüleiste",
+    "AccessibleText": "Anwendungsmenüleiste"
+  },
+  "fileMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Datei"
+  },
+  "newFolderMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Neuer Ordner"
+  },
+  "deleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Löschen"
+  },
+  "exitMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Beenden"
+  },
+  "editMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Bearbeiten"
+  },
+  "copyMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Kopieren"
+  },
+  "cutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Ausschneiden"
+  },
+  "pasteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Einfügen"
+  },
+  "selectAllMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Alles auswählen"
+  },
+  "viewMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Ansicht"
+  },
+  "refreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Aktualisieren"
+  },
+  "sortByMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Sortieren nach"
+  },
+  "sortByNameRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Name"
+  },
+  "sortBySizeRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Größe"
+  },
+  "sortByDateRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Änderungsdatum"
+  },
+  "sortAscendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Aufsteigend"
+  },
+  "sortDescendingRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Absteigend"
+  },
+  "showHiddenMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Versteckte Dateien anzeigen"
+  },
+  "showExtensionsMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Dateiendungen anzeigen"
+  },
+  "filterMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Filtern"
+  },
+  "allFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Alle Dateien"
+  },
+  "dirsOnlyRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Nur Verzeichnisse"
+  },
+  "allFileTypesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Alle Typen"
+  },
+  "textFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Textdateien"
+  },
+  "imageFilesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Bilddateien"
+  },
+  "preferencesMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Einstellungen"
+  },
+  "localeMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Sprache"
+  },
+  "localeSetMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Sprachauswahl"
+  },
+  "loggerLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Protokoll-Sprachen"
+  },
+  "allLocalesRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Alle JVM-Sprachen"
+  },
+  "loggerLocaleMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Protokoll-Sprache"
+  },
+  "jvmDefaultLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "JVM-Standard"
+  },
+  "currentLocaleRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Aktuelle Auswahl"
+  },
+  "helpMenuProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Hilfe"
+  },
+  "aboutMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Über"
+  },
+  "navToolBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Navigations-Symbolleiste",
+    "TooltipText": "Navigations-Symbolleiste"
+  },
+  "backButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Zurück",
+    "TooltipText": "Zurück gehen"
+  },
+  "forwardButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Vor",
+    "TooltipText": "Vorwärts gehen"
+  },
+  "upButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Oben",
+    "TooltipText": "Eine Ebene höher"
+  },
+  "homeButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Startseite",
+    "TooltipText": "Zum Heimverzeichnis"
+  },
+  "refreshButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Aktualisieren",
+    "TooltipText": "Aktuelles Verzeichnis aktualisieren"
+  },
+  "newFolderButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Neuer Ordner",
+    "TooltipText": "Neuen Ordner erstellen"
+  },
+  "toolBarSeparatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Trennzeichen der Symbolleiste"
+  },
+  "listViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Liste",
+    "TooltipText": "Listenansicht"
+  },
+  "detailViewToggleProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Details",
+    "TooltipText": "Detailansicht"
+  },
+  "pathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Pfad:"
+  },
+  "pathFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Zu navigierenden Pfad eingeben"
+  },
+  "mainSplitPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Hauptteilungsfenster",
+    "TooltipText": "Hauptinhaltsbereich"
+  },
+  "treeScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Verzeichnisbaum-Rollbereich"
+  },
+  "contentTabPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Inhalts-Registerkartenbereich"
+  },
+  "filesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Dateien",
+    "TooltipText": "Dateiliste"
+  },
+  "previewTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Vorschau",
+    "TooltipText": "Dateivorschau"
+  },
+  "propertiesTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Eigenschaften",
+    "TooltipText": "Dateieigenschaften"
+  },
+  "widgetsTabProps":
+  {
+    "type": "dev.javai18n.fx.TabPropertyBundle",
+    "Text": "Widgets",
+    "TooltipText": "Resourceful-Widget-Demonstrationen"
+  },
+  "fileTableProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Dateitabelle",
+    "TooltipText": "Dateilisten-Tabelle"
+  },
+  "nameColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Name"
+  },
+  "sizeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Größe"
+  },
+  "typeColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Typ"
+  },
+  "dateColumnProps":
+  {
+    "type": "dev.javai18n.fx.TableColumnPropertyBundle",
+    "Text": "Änderungsdatum"
+  },
+  "fileListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Dateilisten-Ansicht",
+    "TooltipText": "Symbolansicht des Verzeichnisinhalts"
+  },
+  "tableScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Tabellen-Rollbereich"
+  },
+  "listScrollPaneProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Listen-Rollbereich"
+  },
+  "previewTextAreaProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Datei zur Vorschau auswählen"
+  },
+  "fileNameLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Name: {0}"
+  },
+  "fileSizeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Größe: {0}"
+  },
+  "fileTypeLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Typ: {0}"
+  },
+  "fileModifiedLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Geändert: {0}"
+  },
+  "filePathLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Ort: {0}"
+  },
+  "readOnlyCheckBoxProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Schreibgeschützt"
+  },
+  "quickInfoTitledPaneProps":
+  {
+    "type": "dev.javai18n.fx.TitledPanePropertyBundle",
+    "Text": "Kurzinfo"
+  },
+  "infoContentLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Datei auswählen, um Infos anzuzeigen"
+  },
+  "fileCountLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "0 Elemente"
+  },
+  "popupRefreshMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Aktualisieren"
+  },
+  "popupPropertiesMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Eigenschaften"
+  },
+  "popupDeleteMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Löschen"
+  },
+  "demoPasswordLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Kennwort:"
+  },
+  "demoPasswordFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Kennwort eingeben...",
+    "TooltipText": "ResourcefulPasswordField — Eingabeaufforderungstext wird bei Sprachänderung aktualisiert"
+  },
+  "demoSearchLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Suche:"
+  },
+  "demoSearchFieldProps":
+  {
+    "type": "dev.javai18n.fx.TextInputPropertyBundle",
+    "PromptText": "Dateien suchen...",
+    "TooltipText": "ResourcefulTextField — Eingabeaufforderungstext wird bei Sprachänderung aktualisiert"
+  },
+  "demoSpinnerLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Anzahl:"
+  },
+  "demoSpinnerProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSpinner — zugänglicher Text wird bei Sprachänderung aktualisiert"
+  },
+  "demoSliderLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Wert:"
+  },
+  "demoSliderProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulSlider — Tooltip wird bei Sprachänderung aktualisiert"
+  },
+  "demoChoiceBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Sortieren:"
+  },
+  "demoChoiceBoxProps":
+  {
+    "type": "dev.javai18n.fx.ChoiceBoxPropertyBundle",
+    "Values": [
+      "Name",
+      "Größe",
+      "Änderungsdatum"
+    ]
+  },
+  "demoComboBoxLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Filtern:"
+  },
+  "demoComboBoxProps":
+  {
+    "type": "dev.javai18n.fx.ComboBoxPropertyBundle",
+    "PromptText": "Filter auswählen...",
+    "Values": [
+      "Alle Dateien",
+      "Textdateien",
+      "Bilddateien"
+    ]
+  },
+  "demoDayListLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Tage:"
+  },
+  "demoDayListViewProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "Name": "Tagesnamen-Liste",
+    "TooltipText": "ResourcefulListView — Elemente werden aus Lokalsymbolen bei Sprachänderung aktualisiert"
+  },
+  "demoProgressBarLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Fortschritt:"
+  },
+  "demoProgressBarProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressBar (65 %)"
+  },
+  "demoProgressIndicatorProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulProgressIndicator (65 %)"
+  },
+  "demoToggleButtonLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Modus:"
+  },
+  "demoToggleButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Aktiviert",
+    "TooltipText": "ResourcefulToggleButton"
+  },
+  "demoPaginationLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Seite:"
+  },
+  "demoPaginationProps":
+  {
+    "type": "dev.javai18n.fx.ControlPropertyBundle",
+    "TooltipText": "ResourcefulPagination"
+  },
+  "demoHyperlinkLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Info:"
+  },
+  "demoHyperlinkProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Mehr über i18n-fx erfahren",
+    "TooltipText": "ResourcefulHyperlink"
+  },
+  "ItemCountFormat": "{0} Elemente",
+  "ComputingSizesFormat": "Verzeichnisgrößen werden berechnet ({0} / {1})...",
+  "FileTooLargeFormat": "Datei zu groß für Vorschau ({0})",
+  "CannotReadFileFormat": "Datei kann nicht gelesen werden: {0}",
+  "FolderNamePromptText": "Ordnername:",
+  "ConfirmDeleteTitle": "Löschen bestätigen",
+  "ConfirmDeleteFormat": "{0} löschen?",
+  "YesText": "Ja",
+  "NoText": "Nein",
+  "DirectoryTypeText": "Verzeichnis",
+  "FileTypeSuffixFormat": "{0}-Datei",
+  "GenericFileTypeText": "Datei",
+  "BytesSuffix": " B",
+  "KilobytesSuffix": " KB",
+  "MegabytesSuffix": " MB",
+  "AboutTitle": "Über Datei-Explorer FX",
+  "AboutHeader": "i18n-fx Demo-Anwendung",
+  "AboutMessage": "Ein JavaFX-Datei-Explorer zur Demonstration der sprachsensiblen Komponenten aus der i18n-fx-Bibliothek.\n\nÄndern Sie die Sprache über Einstellungen > Sprache, um zu sehen, wie alle Beschriftungen, Menüs, Reiter und Widgets automatisch aktualisiert werden.",
+  "DemoSliderTooltipFormat": "Wert: {0}",
+  "OkButtonText": "OK",
+  "CancelButtonText": "Abbrechen",
+  "DeleteFailedTitle": "Löschen fehlgeschlagen",
+  "DeleteFailedFormat": "{0} konnte nicht gelöscht werden.",
+  "fxmlDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "FXML-Demo…"
+  },
+  "swingInteropDemoMenuItemProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Swing-Interoperabilitäts-Demo…"
+  },
+  "showPopupLabelProps":
+  {
+    "type": "dev.javai18n.fx.LabeledPropertyBundle",
+    "Text": "Popup"
+  },
+  "showPopupButtonProps":
+  {
+    "type": "dev.javai18n.fx.ButtonBasePropertyBundle",
+    "Text": "Demo-Popup anzeigen"
+  }
+}
