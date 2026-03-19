@@ -80,6 +80,11 @@
     "type": "dev.javai18n.fx.MenuItemPropertyBundle",
     "Text": "Taille"
   },
+  "sortByTypeRadioProps":
+  {
+    "type": "dev.javai18n.fx.MenuItemPropertyBundle",
+    "Text": "Type"
+  },
   "sortByDateRadioProps":
   {
     "type": "dev.javai18n.fx.MenuItemPropertyBundle",

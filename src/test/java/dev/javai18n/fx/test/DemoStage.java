@@ -56,6 +56,7 @@ import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.RadioMenuItem;
 import javafx.scene.control.SeparatorMenuItem;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.SpinnerValueFactory;
 import javafx.scene.control.TextInputDialog;
 import javafx.scene.control.ToggleGroup;
@@ -176,6 +177,11 @@ public class DemoStage extends LocalizableStage
     private boolean showFileExtensions = true;
     private String sortBy = "name";
     private boolean sortAscending = true;
+    private boolean updatingSortOrder = false;
+
+    // === Sort menu items (instance fields so applySort can sync them) ===
+    private ResourcefulRadioMenuItem sortByNameRadio, sortBySizeRadio, sortByTypeRadio, sortByDateRadio;
+    private ResourcefulRadioMenuItem sortAscendingRadio, sortDescendingRadio;
     private boolean dirsOnly = false;
     private String fileType = "all";
 
@@ -354,27 +360,30 @@ public class DemoStage extends LocalizableStage
         // Sort By submenu
         ResourcefulMenu sortByMenu = ResourcefulMenu.create(new Resource(this, "sortByMenuProps"));
         ToggleGroup sortGroup = new ToggleGroup();
-        ResourcefulRadioMenuItem sortByNameRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortByNameRadioProps"));
+        sortByNameRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortByNameRadioProps"));
         sortByNameRadio.setToggleGroup(sortGroup);
         sortByNameRadio.setSelected(true);
-        sortByNameRadio.setOnAction(e -> { sortBy = "name"; refreshFileTable(); });
-        ResourcefulRadioMenuItem sortBySizeRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortBySizeRadioProps"));
+        sortByNameRadio.setOnAction(e -> applySort("name", sortAscending));
+        sortBySizeRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortBySizeRadioProps"));
         sortBySizeRadio.setToggleGroup(sortGroup);
-        sortBySizeRadio.setOnAction(e -> { sortBy = "size"; refreshFileTable(); });
-        ResourcefulRadioMenuItem sortByDateRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortByDateRadioProps"));
+        sortBySizeRadio.setOnAction(e -> applySort("size", sortAscending));
+        sortByTypeRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortByTypeRadioProps"));
+        sortByTypeRadio.setToggleGroup(sortGroup);
+        sortByTypeRadio.setOnAction(e -> applySort("type", sortAscending));
+        sortByDateRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortByDateRadioProps"));
         sortByDateRadio.setToggleGroup(sortGroup);
-        sortByDateRadio.setOnAction(e -> { sortBy = "date"; refreshFileTable(); });
+        sortByDateRadio.setOnAction(e -> applySort("date", sortAscending));
 
         ToggleGroup dirGroup = new ToggleGroup();
-        ResourcefulRadioMenuItem sortAscendingRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortAscendingRadioProps"));
+        sortAscendingRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortAscendingRadioProps"));
         sortAscendingRadio.setToggleGroup(dirGroup);
         sortAscendingRadio.setSelected(true);
-        sortAscendingRadio.setOnAction(e -> { sortAscending = true; refreshFileTable(); });
-        ResourcefulRadioMenuItem sortDescendingRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortDescendingRadioProps"));
+        sortAscendingRadio.setOnAction(e -> applySort(sortBy, true));
+        sortDescendingRadio = ResourcefulRadioMenuItem.create(new Resource(this, "sortDescendingRadioProps"));
         sortDescendingRadio.setToggleGroup(dirGroup);
-        sortDescendingRadio.setOnAction(e -> { sortAscending = false; refreshFileTable(); });
+        sortDescendingRadio.setOnAction(e -> applySort(sortBy, false));
 
-        sortByMenu.getItems().addAll(sortByNameRadio, sortBySizeRadio, sortByDateRadio,
+        sortByMenu.getItems().addAll(sortByNameRadio, sortBySizeRadio, sortByTypeRadio, sortByDateRadio,
                 new SeparatorMenuItem(), sortAscendingRadio, sortDescendingRadio);
         viewMenu.getItems().add(sortByMenu);
 
@@ -682,6 +691,28 @@ public class DemoStage extends LocalizableStage
         dateColumn.setPrefWidth(160);
 
         fileTable.getColumns().addAll(List.of(nameColumn, sizeColumn, typeColumn, dateColumn));
+
+        fileTable.setSortPolicy(tv ->
+        {
+            if (updatingSortOrder) return true;
+            if (tv.getSortOrder().isEmpty())
+            {
+                applySort("name", true);
+            }
+            else
+            {
+                TableColumn<File, ?> col = (TableColumn<File, ?>) tv.getSortOrder().get(0);
+                String newSortBy;
+                if (col == sizeColumn) newSortBy = "size";
+                else if (col == typeColumn) newSortBy = "type";
+                else if (col == dateColumn) newSortBy = "date";
+                else newSortBy = "name";
+                applySort(newSortBy, col.getSortType() == TableColumn.SortType.ASCENDING);
+            }
+            return true;
+        });
+        updateTableSortIndicators();
+
         fileTable.getSelectionModel().selectedItemProperty().addListener((obs, old, nv) ->
         {
             if (nv != null) showProperties(nv);
@@ -1240,25 +1271,24 @@ public class DemoStage extends LocalizableStage
                 Comparator<File> secondary;
                 switch (capturedSortBy)
                 {
-                    case "size": secondary = Comparator.comparingLong((File f) -> capturedSizes.getOrDefault(f, f.length())).thenComparing(byName); break;
+                    case "size": secondary = Comparator.comparingLong((File f) ->
+                        f.isDirectory() ? capturedSizes.getOrDefault(f, Long.MAX_VALUE) : f.length()).thenComparing(byName); break;
+                    case "type":
+                        secondary = Comparator.comparing((File f) -> {
+                            String n = f.getName();
+                            int dot = n.lastIndexOf('.');
+                            return dot >= 0 ? n.substring(dot + 1).toLowerCase() : "";
+                        }, col).thenComparing(byName); break;
                     case "date": secondary = Comparator.comparingLong(File::lastModified).thenComparing(byName); break;
                     default: secondary = byName;
                 }
                 Comparator<File> comparator = (a, b) ->
                 {
-                    boolean aDir = a.isDirectory(), bDir = b.isDirectory();
-                    if (aDir && !bDir) return -1;
-                    if (!aDir && bDir) return 1;
-                    if (aDir)
+                    if (!"size".equals(capturedSortBy))
                     {
-                        if ("size".equals(capturedSortBy))
-                        {
-                            long sizeA = capturedSizes.getOrDefault(a, Long.MAX_VALUE);
-                            long sizeB = capturedSizes.getOrDefault(b, Long.MAX_VALUE);
-                            int cmp = Long.compare(sizeA, sizeB);
-                            return cmp != 0 ? cmp : byName.compare(a, b);
-                        }
-                        return secondary.compare(a, b);
+                        boolean aDir = a.isDirectory(), bDir = b.isDirectory();
+                        if (aDir && !bDir) return -1;
+                        if (!aDir && bDir) return 1;
                     }
                     return secondary.compare(a, b);
                 };
@@ -1548,6 +1578,50 @@ public class DemoStage extends LocalizableStage
     // =========================================================================
     // Formatting helpers
     // =========================================================================
+
+    private void applySort(String newSortBy, boolean newAscending)
+    {
+        sortBy = newSortBy;
+        sortAscending = newAscending;
+        updateTableSortIndicators();
+        updateSortMenuRadios();
+        refreshFileTable();
+    }
+
+    private void updateTableSortIndicators()
+    {
+        updatingSortOrder = true;
+        try
+        {
+            TableColumn<File, ?> col;
+            switch (sortBy)
+            {
+                case "size": col = sizeColumn; break;
+                case "type": col = typeColumn; break;
+                case "date": col = dateColumn; break;
+                default:     col = nameColumn;
+            }
+            col.setSortType(sortAscending ? TableColumn.SortType.ASCENDING : TableColumn.SortType.DESCENDING);
+            fileTable.getSortOrder().setAll(col);
+        }
+        finally
+        {
+            updatingSortOrder = false;
+        }
+    }
+
+    private void updateSortMenuRadios()
+    {
+        switch (sortBy)
+        {
+            case "size": sortBySizeRadio.setSelected(true); break;
+            case "type": sortByTypeRadio.setSelected(true); break;
+            case "date": sortByDateRadio.setSelected(true); break;
+            default:     sortByNameRadio.setSelected(true);
+        }
+        if (sortAscending) sortAscendingRadio.setSelected(true);
+        else               sortDescendingRadio.setSelected(true);
+    }
 
     private String formatSize(long bytes)
     {
