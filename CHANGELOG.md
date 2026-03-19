@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.1] - 2026-03-19
+
+### Changed
+
+- Demo app: Sort By Size now sorts files and directories together by numeric
+  size rather than grouping directories before files
+- Demo app: Sort By Type added to the View > Sort By menu (sorts by file
+  extension; was previously only available by clicking the Type column header)
+- Demo app: column header clicks and View menu sort selections now use the
+  same sort logic and keep each other's state in sync; the column sort
+  indicator arrow always reflects the active sort
+
 ## [1.0] - 2026-03-15
 
 ### Added

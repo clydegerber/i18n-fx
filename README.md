@@ -19,7 +19,7 @@ when the application locale changes.
 <dependency>
     <groupId>dev.javai18n</groupId>
     <artifactId>i18n-fx</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
