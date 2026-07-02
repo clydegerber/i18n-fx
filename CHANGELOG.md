@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.3] - 2026-07-02
+
+### Fixed
+
+- Added Javadoc to `Resourceful*` component members (protected constructors,
+  `initialize()`, `setLocale`/`getLocale`, `updateLocaleSpecificValues()`) and
+  declared generic type parameters on `ResourcefulSpinner`, `ResourcefulListView`,
+  `ResourcefulTreeView`, `ResourcefulTableView`, `ResourcefulTableColumn`, and
+  `ResourcefulTreeTableView`, so the release profile's `doclint:all` check
+  produces zero warnings
+
 ## [1.0.2] - 2026-06-30
 
 ### Changed
