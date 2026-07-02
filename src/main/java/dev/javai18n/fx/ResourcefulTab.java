@@ -53,6 +53,11 @@ public class ResourcefulTab extends Tab implements Resourceful, LocaleEventListe
 
     private final FXResourcefulDelegate delegate;
 
+    /**
+     * Constructs a Tab bound to the given resource. Use {@link #create(Resource)}
+     * for an initialized instance.
+     * @param resource The resource identifying the locale source and bundle key.
+     */
     protected ResourcefulTab(Resource resource)
     {
         this.delegate = new FXResourcefulDelegate(resource, this::updateLocaleSpecificValues);
@@ -82,6 +87,10 @@ public class ResourcefulTab extends Tab implements Resourceful, LocaleEventListe
         });
     }
 
+    /**
+     * Registers this component as a locale-event listener on its resource source and
+     * applies the initial locale-specific values from the resource bundle.
+     */
     protected final void initialize()
     {
         delegate.initialize();
@@ -100,6 +109,9 @@ public class ResourcefulTab extends Tab implements Resourceful, LocaleEventListe
         delegate.initialize(resource);
     }
 
+    /**
+     * Applies locale-specific values from the associated resource bundle to this component.
+     */
     protected void updateLocaleSpecificValues()
     {
         try

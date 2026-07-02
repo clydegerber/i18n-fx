@@ -28,6 +28,9 @@ import static dev.javai18n.fx.FXLogger.FX_LOGGER;
 
 /**
  * A TableColumn that supports localizing the header text and graphic.
+ *
+ * @param <S> The type of the TableView generic type (the row item type).
+ * @param <T> The type of the content held by this column.
  */
 public class ResourcefulTableColumn<S,T> extends TableColumn<S,T> implements Resourceful, LocaleEventListener
 {
@@ -39,6 +42,8 @@ public class ResourcefulTableColumn<S,T> extends TableColumn<S,T> implements Res
     /**
      * Construct a ResourcefulTableColumn with the specified Resource.
      *
+     * @param <S> The type of the TableView generic type (the row item type).
+     * @param <T> The type of the content held by this column.
      * @param resource A Resource containing a TableColumnPropertyBundle.
      * @return A ResourcefulTableColumn with updated Locale-specific values that is registered
      *         to listen to LocaleEvents generated from the specified Resource's source.
@@ -52,6 +57,11 @@ public class ResourcefulTableColumn<S,T> extends TableColumn<S,T> implements Res
 
     private final FXResourcefulDelegate delegate;
 
+    /**
+     * Constructs a TableColumn bound to the given resource. Use {@link #create(Resource)}
+     * for an initialized instance.
+     * @param resource The resource identifying the locale source and bundle key.
+     */
     protected ResourcefulTableColumn(Resource resource)
     {
         this.delegate = new FXResourcefulDelegate(resource, this::updateLocaleSpecificValues);
@@ -81,6 +91,10 @@ public class ResourcefulTableColumn<S,T> extends TableColumn<S,T> implements Res
         });
     }
 
+    /**
+     * Registers this component as a locale-event listener on its resource source and
+     * applies the initial locale-specific values from the resource bundle.
+     */
     protected final void initialize()
     {
         delegate.initialize();
@@ -99,6 +113,9 @@ public class ResourcefulTableColumn<S,T> extends TableColumn<S,T> implements Res
         delegate.initialize(resource);
     }
 
+    /**
+     * Applies locale-specific values from the associated resource bundle to this component.
+     */
     protected void updateLocaleSpecificValues()
     {
         try

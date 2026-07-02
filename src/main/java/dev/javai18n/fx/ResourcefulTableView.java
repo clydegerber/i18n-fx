@@ -29,6 +29,8 @@ import static dev.javai18n.fx.FXLogger.FX_LOGGER;
 /**
  * A TableView that supports localizing the name (id), style, tooltip,
  * accessible text, accessible help, and accessible role description.
+ *
+ * @param <S> The item type held by the table.
  */
 public class ResourcefulTableView<S> extends TableView<S> implements Resourceful, LocaleEventListener
 {
@@ -39,6 +41,7 @@ public class ResourcefulTableView<S> extends TableView<S> implements Resourceful
 
     /**
      * Construct a ResourcefulTableView with the specified Resource.
+     * @param <S> The item type held by the table.
      * @param resource A Resource containing a ControlPropertyBundle.
      * @return A ResourcefulTableView with updated Locale-specific values that is registered
      *         to listen to LocaleEvents generated from the specified Resource's source.
@@ -53,6 +56,11 @@ public class ResourcefulTableView<S> extends TableView<S> implements Resourceful
     private Locale locale = Locale.getDefault();
     private final FXResourcefulDelegate delegate;
 
+    /**
+     * Constructs a TableView bound to the given resource. Use {@link #create(Resource)}
+     * for an initialized instance.
+     * @param resource The resource identifying the locale source and bundle key.
+     */
     protected ResourcefulTableView(Resource resource)
     {
         this.delegate = new FXResourcefulDelegate(resource, this::setLocale, this::updateLocaleSpecificValues);
@@ -82,6 +90,10 @@ public class ResourcefulTableView<S> extends TableView<S> implements Resourceful
         });
     }
 
+    /**
+     * Registers this component as a locale-event listener on its resource source and
+     * applies the initial locale-specific values from the resource bundle.
+     */
     protected final void initialize()
     {
         delegate.initialize();
@@ -100,16 +112,28 @@ public class ResourcefulTableView<S> extends TableView<S> implements Resourceful
         delegate.initialize(resource);
     }
 
+    /**
+     * Sets the locale used for resource lookups on this component. Called by the delegate
+     * when a locale change event is processed.
+     * @param locale The new locale.
+     */
     protected void setLocale(Locale locale)
     {
         this.locale = locale;
     }
 
+    /**
+     * Returns the current locale of this component, used for resource lookups.
+     * @return the current locale.
+     */
     public Locale getLocale()
     {
         return locale;
     }
 
+    /**
+     * Applies locale-specific values from the associated resource bundle to this component.
+     */
     protected void updateLocaleSpecificValues()
     {
         try

@@ -52,6 +52,11 @@ public class ResourcefulCheckMenuItem extends CheckMenuItem implements Resourcef
 
     private final FXResourcefulDelegate delegate;
 
+    /**
+     * Constructs a CheckMenuItem bound to the given resource. Use {@link #create(Resource)}
+     * for an initialized instance.
+     * @param resource The resource identifying the locale source and bundle key.
+     */
     protected ResourcefulCheckMenuItem(Resource resource)
     {
         this.delegate = new FXResourcefulDelegate(resource, this::updateLocaleSpecificValues);
@@ -81,6 +86,10 @@ public class ResourcefulCheckMenuItem extends CheckMenuItem implements Resourcef
         });
     }
 
+    /**
+     * Registers this component as a locale-event listener on its resource source and
+     * applies the initial locale-specific values from the resource bundle.
+     */
     protected final void initialize()
     {
         delegate.initialize();
@@ -99,6 +108,9 @@ public class ResourcefulCheckMenuItem extends CheckMenuItem implements Resourcef
         delegate.initialize(resource);
     }
 
+    /**
+     * Applies locale-specific values from the associated resource bundle to this component.
+     */
     protected void updateLocaleSpecificValues()
     {
         try

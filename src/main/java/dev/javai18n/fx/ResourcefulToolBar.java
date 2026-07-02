@@ -53,6 +53,11 @@ public class ResourcefulToolBar extends ToolBar implements Resourceful, LocaleEv
     private Locale locale = Locale.getDefault();
     private final FXResourcefulDelegate delegate;
 
+    /**
+     * Constructs a ToolBar bound to the given resource. Use {@link #create(Resource)}
+     * for an initialized instance.
+     * @param resource The resource identifying the locale source and bundle key.
+     */
     protected ResourcefulToolBar(Resource resource)
     {
         this.delegate = new FXResourcefulDelegate(resource, this::setLocale, this::updateLocaleSpecificValues);
@@ -82,6 +87,10 @@ public class ResourcefulToolBar extends ToolBar implements Resourceful, LocaleEv
         });
     }
 
+    /**
+     * Registers this component as a locale-event listener on its resource source and
+     * applies the initial locale-specific values from the resource bundle.
+     */
     protected final void initialize()
     {
         delegate.initialize();
@@ -100,16 +109,28 @@ public class ResourcefulToolBar extends ToolBar implements Resourceful, LocaleEv
         delegate.initialize(resource);
     }
 
+    /**
+     * Sets the locale used for resource lookups on this component. Called by the delegate
+     * when a locale change event is processed.
+     * @param locale The new locale.
+     */
     protected void setLocale(Locale locale)
     {
         this.locale = locale;
     }
 
+    /**
+     * Returns the current locale of this component, used for resource lookups.
+     * @return the current locale.
+     */
     public Locale getLocale()
     {
         return locale;
     }
 
+    /**
+     * Applies locale-specific values from the associated resource bundle to this component.
+     */
     protected void updateLocaleSpecificValues()
     {
         try

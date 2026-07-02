@@ -50,6 +50,11 @@ public class ResourcefulTooltip extends Tooltip implements Resourceful, LocaleEv
 
     private final FXResourcefulDelegate delegate;
 
+    /**
+     * Constructs a Tooltip bound to the given resource. Use {@link #create(Resource)}
+     * for an initialized instance.
+     * @param resource The resource identifying the locale source and bundle key.
+     */
     protected ResourcefulTooltip(Resource resource)
     {
         this.delegate = new FXResourcefulDelegate(resource, this::updateLocaleSpecificValues);
@@ -64,6 +69,10 @@ public class ResourcefulTooltip extends Tooltip implements Resourceful, LocaleEv
         this.delegate = new FXResourcefulDelegate(this::updateLocaleSpecificValues);
     }
 
+    /**
+     * Registers this component as a locale-event listener on its resource source and
+     * applies the initial locale-specific values from the resource bundle.
+     */
     protected final void initialize()
     {
         delegate.initialize();
@@ -82,6 +91,9 @@ public class ResourcefulTooltip extends Tooltip implements Resourceful, LocaleEv
         delegate.initialize(resource);
     }
 
+    /**
+     * Applies locale-specific values from the associated resource bundle to this component.
+     */
     protected void updateLocaleSpecificValues()
     {
         try
