@@ -667,6 +667,7 @@ java --module-path "${full.modulepath}" --add-modules ALL-MODULE-PATH -Dprism.or
                         <extensions>true</extensions>
                         <configuration>
                             <publishingServerId>central</publishingServerId>
+                            <autoPublish>true</autoPublish>
                         </configuration>
                     </plugin>
                 </plugins>
