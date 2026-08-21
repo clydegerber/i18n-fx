@@ -553,6 +553,7 @@
   "AboutTitle": "À propos de l'Explorateur de fichiers FX",
   "AboutHeader": "Application de démonstration i18n-fx",
   "AboutMessage": "Un explorateur de fichiers JavaFX démontrant les composants adaptés aux paramètres régionaux de la bibliothèque i18n-fx.\n\nModifiez les paramètres régionaux via Préférences > Paramètres régionaux pour voir tous les libellés, menus, onglets et widgets se mettre à jour automatiquement.",
+  "AboutVersion": "Version {0}",
   "DemoSliderTooltipFormat": "Valeur : {0}",
   "OkButtonText": "OK",
   "CancelButtonText": "Annuler",

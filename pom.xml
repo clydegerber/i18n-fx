@@ -93,6 +93,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>21</maven.compiler.release>
         <javafx.version>21.0.10</javafx.version>
+        <!-- Version stamped into the packaged demo app and reported by its About
+             dialog.  Kept separate from ${project.version} because jpackage
+             rejects any version that is not major[.minor[.patch]], which a
+             qualifier such as -SNAPSHOT would violate. -->
+        <app.version>1.0.5</app.version>
     </properties>
 
     <build>
@@ -506,6 +511,7 @@ java --module-path "${full.modulepath}" --add-modules ALL-MODULE-PATH -Dprism.or
                                             <arg value="${full.modulepath}"/>
                                             <arg value="--add-modules"/>
                                             <arg value="ALL-MODULE-PATH"/>
+                                            <arg value="-Dapp.version=${app.version}"/>
                                             <arg value="-m"/>
                                             <arg value="dev.javai18n.fx.test/dev.javai18n.fx.test.TestFXApp"/>
                                         </exec>
@@ -555,7 +561,7 @@ java --module-path "${full.modulepath}" --add-modules ALL-MODULE-PATH -Dprism.or
                                             <arg value="--name"/>
                                             <arg value="File Explorer FX"/>
                                             <arg value="--app-version"/>
-                                            <arg value="1.0"/>
+                                            <arg value="${app.version}"/>
                                             <arg value="--vendor"/>
                                             <arg value="Clyde Gerber"/>
                                             <arg value="--type"/>
@@ -570,6 +576,8 @@ java --module-path "${full.modulepath}" --add-modules ALL-MODULE-PATH -Dprism.or
                                             <arg value="--enable-native-access=javafx.graphics"/>
                                             <arg value="--java-options"/>
                                             <arg value="-Dsun.misc.unsafe.memory.access=allow"/>
+                                            <arg value="--java-options"/>
+                                            <arg value="-Dapp.version=${app.version}"/>
                                             <arg value="--icon"/>
                                             <arg value="${project.build.testOutputDirectory}/dev/javai18n/fx/test/app-icon.icns"/>
                                             <arg value="--dest"/>

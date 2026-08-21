@@ -553,6 +553,7 @@
   "AboutTitle": "关于文件浏览器 FX",
   "AboutHeader": "i18n-fx 演示应用程序",
   "AboutMessage": "一个 JavaFX 文件浏览器，展示 i18n-fx 库的语言环境感知组件。\n\n通过首选项 > 语言环境更改语言环境，即可看到所有标签、菜单、选项卡和小部件自动更新。",
+  "AboutVersion": "版本 {0}",
   "DemoSliderTooltipFormat": "值: {0}",
   "OkButtonText": "确定",
   "CancelButtonText": "取消",

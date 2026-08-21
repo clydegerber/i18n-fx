@@ -553,6 +553,7 @@
   "AboutTitle": "About File Explorer FX",
   "AboutHeader": "i18n-fx Demo Application",
   "AboutMessage": "A JavaFX file explorer demonstrating locale-aware components from the i18n-fx library.\n\nChange the locale via Preferences > Locale to see all labels, menus, tabs, and widgets update automatically.",
+  "AboutVersion": "Version {0}",
   "DemoSliderTooltipFormat": "Value: {0}",
   "OkButtonText": "OK",
   "CancelButtonText": "Cancel",

@@ -553,6 +553,7 @@
   "AboutTitle": "ファイルエクスプローラー FX について",
   "AboutHeader": "i18n-fx デモアプリケーション",
   "AboutMessage": "i18n-fx ライブラリのロケール対応コンポーネントを実演する JavaFX ファイルエクスプローラーです。\n\n設定 > ロケール からロケールを変更すると、すべてのラベル、メニュー、タブ、ウィジェットが自動的に更新されます。",
+  "AboutVersion": "バージョン {0}",
   "DemoSliderTooltipFormat": "値: {0}",
   "OkButtonText": "OK",
   "CancelButtonText": "キャンセル",

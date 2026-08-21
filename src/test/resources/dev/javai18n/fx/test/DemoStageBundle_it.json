@@ -553,6 +553,7 @@
   "AboutTitle": "Informazioni su Esplora file FX",
   "AboutHeader": "Applicazione demo i18n-fx",
   "AboutMessage": "Un esplora file JavaFX che dimostra i componenti sensibili alle impostazioni locali della libreria i18n-fx.\n\nModifica le impostazioni locali tramite Preferenze > Impostazioni locali per vedere tutti i titoli, i menu, le schede e i widget aggiornarsi automaticamente.",
+  "AboutVersion": "Versione {0}",
   "DemoSliderTooltipFormat": "Valore: {0}",
   "OkButtonText": "OK",
   "CancelButtonText": "Annulla",

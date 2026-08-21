@@ -553,6 +553,7 @@
   "AboutTitle": "Über Datei-Explorer FX",
   "AboutHeader": "i18n-fx Demo-Anwendung",
   "AboutMessage": "Ein JavaFX-Datei-Explorer zur Demonstration der sprachsensiblen Komponenten aus der i18n-fx-Bibliothek.\n\nÄndern Sie die Sprache über Einstellungen > Sprache, um zu sehen, wie alle Beschriftungen, Menüs, Reiter und Widgets automatisch aktualisiert werden.",
+  "AboutVersion": "Version {0}",
   "DemoSliderTooltipFormat": "Wert: {0}",
   "OkButtonText": "OK",
   "CancelButtonText": "Abbrechen",

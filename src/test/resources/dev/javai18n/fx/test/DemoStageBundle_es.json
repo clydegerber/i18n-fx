@@ -553,6 +553,7 @@
   "AboutTitle": "Acerca del Explorador de archivos FX",
   "AboutHeader": "Aplicación de demostración de i18n-fx",
   "AboutMessage": "Un explorador de archivos JavaFX que demuestra los componentes adaptados a la configuración regional de la biblioteca i18n-fx.\n\nCambie la configuración regional a través de Preferencias > Configuración regional para ver cómo todas las etiquetas, menús, pestañas y widgets se actualizan automáticamente.",
+  "AboutVersion": "Versión {0}",
   "DemoSliderTooltipFormat": "Valor : {0}",
   "OkButtonText": "Aceptar",
   "CancelButtonText": "Cancelar",

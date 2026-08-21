@@ -189,6 +189,16 @@ public class DemoStage extends LocalizableStage
     private final List<LocaleMenuItem> localeMenuItems = new ArrayList<>();
     private boolean localeMenuBuiltForAllLocales = false;
 
+    /**
+     * Version reported by the About dialog.
+     *
+     * <p>Set from the {@code app.version} system property, which the {@code jpackage}
+     * and {@code run-demo} Maven profiles both pass through from the {@code app.version}
+     * POM property. When the application is started some other way -- from an IDE, say --
+     * the property is absent and the version is unknown.
+     */
+    private static final String APP_VERSION = System.getProperty("app.version", "");
+
     // === Format cache ===
     private Locale formatCacheLocale;
     private final Map<String, MessageFormat> bundleStringFormatCache = new HashMap<>();
@@ -1524,7 +1534,14 @@ public class DemoStage extends LocalizableStage
         alert.initOwner(this);
         alert.setTitle(getBundleString("AboutTitle"));
         alert.setHeaderText(getBundleString("AboutHeader"));
-        alert.setContentText(getBundleString("AboutMessage"));
+        // The version line is omitted when the app.version property was not supplied,
+        // rather than showing a placeholder that would be mistaken for a real version.
+        String message = getBundleString("AboutMessage");
+        if (!APP_VERSION.isEmpty())
+        {
+            message = formatBundleString("AboutVersion", APP_VERSION) + "\n\n" + message;
+        }
+        alert.setContentText(message);
         alert.getButtonTypes().setAll(
                 new ButtonType(getBundleString("OkButtonText"), ButtonBar.ButtonData.OK_DONE));
         alert.showAndWait();

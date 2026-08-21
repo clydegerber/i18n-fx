@@ -553,6 +553,7 @@
   "AboutTitle": "파일 탐색기 FX 정보",
   "AboutHeader": "i18n-fx 데모 애플리케이션",
   "AboutMessage": "i18n-fx 라이브러리의 로케일 인식 컴포넌트를 시연하는 JavaFX 파일 탐색기입니다.\n\n환경 설정 > 로케일을 통해 로케일을 변경하면 모든 레이블, 메뉴, 탭, 위젯이 자동으로 업데이트됩니다.",
+  "AboutVersion": "버전 {0}",
   "DemoSliderTooltipFormat": "값: {0}",
   "OkButtonText": "확인",
   "CancelButtonText": "취소",
