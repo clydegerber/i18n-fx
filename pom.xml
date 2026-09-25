@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.javai18n</groupId>
     <artifactId>i18n-fx</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packaging>jar</packaging>
 
     <name>i18n-fx</name>
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>dev.javai18n</groupId>
             <artifactId>i18n-core</artifactId>
-            <version>1.4.3</version>
+            <version>1.4.4</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -66,7 +66,7 @@
         <dependency>
             <groupId>dev.javai18n</groupId>
             <artifactId>i18n-swing</artifactId>
-            <version>1.2.5</version>
+            <version>1.2.6</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -97,7 +97,7 @@
              dialog.  Kept separate from ${project.version} because jpackage
              rejects any version that is not major[.minor[.patch]], which a
              qualifier such as -SNAPSHOT would violate. -->
-        <app.version>1.0.5</app.version>
+        <app.version>1.0.6</app.version>
     </properties>
 
     <build>

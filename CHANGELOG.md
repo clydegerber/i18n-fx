@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.6] - 2026-09-25
+
+### Added
+
+- The demo application's About dialog now shows the application version, as an
+  internationalized line translated for all eight bundle locales. Demo and test
+  sources only, with no effect on consumers of this library.
+
+### Changed
+
+- Updated `i18n-core` dependency from 1.4.3 to 1.4.4, which transitively upgrades
+  `jackson-databind` from 3.2.2 to 3.2.3. No advisory is associated with this
+  upgrade (see i18n-core 1.4.4 release notes for details)
+- Updated `i18n-swing` test dependency from 1.2.5 to 1.2.6
+
 ## [1.0.5] - 2026-08-21
 
 ### Changed
