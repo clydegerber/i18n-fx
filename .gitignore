@@ -2,3 +2,6 @@ CLAUDE.md
 run-demo.sh
 target/
 .claude/
+
+# OS files
+.DS_Store
