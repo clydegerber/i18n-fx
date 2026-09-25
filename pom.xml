@@ -92,7 +92,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>21</maven.compiler.release>
-        <javafx.version>21.0.10</javafx.version>
+        <javafx.version>26.0.2</javafx.version>
         <!-- Version stamped into the packaged demo app and reported by its About
              dialog.  Kept separate from ${project.version} because jpackage
              rejects any version that is not major[.minor[.patch]], which a
