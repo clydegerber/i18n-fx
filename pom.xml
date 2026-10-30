@@ -72,19 +72,19 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.13.4</version>
+            <version>6.1.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-console</artifactId>
-            <version>1.13.4</version>
+            <version>6.1.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-launcher</artifactId>
-            <version>1.13.4</version>
+            <version>6.1.3</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -465,7 +465,7 @@
 
                                         <!-- Create shell script -->
                                         <echo file="${project.build.directory}/run-module-tests.sh">#!/bin/sh
-java --module-path "${full.modulepath}" --add-modules ALL-MODULE-PATH -Dprism.order=sw -m org.junit.platform.console --select-module dev.javai18n.fx.test
+java --module-path "${full.modulepath}" --add-modules ALL-MODULE-PATH -Dprism.order=sw -m org.junit.platform.console execute --select-module dev.javai18n.fx.test
 </echo>
                                         <chmod file="${project.build.directory}/run-module-tests.sh" perm="755"/>
 
