@@ -8,7 +8,7 @@ when the application locale changes.
 
 ## Requirements
 
-- Java 21 or later
+- Java 24 or later
 - [i18n-core](https://github.com/clydegerber/i18n) 1.4.5 or later (pulled in transitively)
 
 ## Installation
