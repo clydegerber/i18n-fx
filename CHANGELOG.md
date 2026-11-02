@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.1] - 2026-11-02
+
+### Fixed
+
+- The demo application's FXML and Swing interop windows now open in the
+  application's current locale rather than the JVM default. Demo sources only,
+  with no effect on consumers of this library.
+- The classpath test configuration (`useModulePath=false`, `-Dprism.order=sw`)
+  and the pinned `maven-surefire-plugin` version now apply to every build. They
+  previously lived in an `activeByDefault` profile, which Maven deactivates
+  whenever another profile is active, and the platform-specific JavaFX profiles
+  are always active, so tests ran on the module path under Maven's default
+  surefire 3.2.5. Build only, with no effect on consumers.
+
 ## [1.1.0] - 2026-11-01
 
 ### Changed
