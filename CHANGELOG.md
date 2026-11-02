@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] - 2026-11-01
+
+### Changed
+
+- **Java 24 is now the minimum.** JavaFX is upgraded from 21.0.10 to 26.0.2, and
+  JavaFX 26 requires Java 24, so the library is now compiled for Java 24
+  (previously Java 21). `javafx-controls`, `javafx-graphics` and `javafx-web`
+  are `compile` scope, so consumers receive JavaFX 26 transitively. Projects
+  still on Java 21–23 should stay on 1.0.7.
+- Updated JUnit test dependencies from 5.13.4 (platform 1.13.4) to 6.1.3. Test
+  scope only, with no effect on consumers.
+- Updated build plugins: `maven-compiler-plugin` 3.15.0 → 3.16.0,
+  `maven-surefire-plugin` 3.5.6 → 3.6.1, `central-publishing-maven-plugin`
+  0.11.0 → 0.12.0. Build only, with no effect on consumers.
+
 ## [1.0.7] - 2026-10-30
 
 ### Changed
