@@ -1551,7 +1551,7 @@ public class DemoStage extends LocalizableStage
     {
         try
         {
-            FXMLContactStage demo = FXMLContactStage.create();
+            FXMLContactStage demo = FXMLContactStage.create(getBundleLocale());
             demo.initOwner(this);
             demo.show();
         }

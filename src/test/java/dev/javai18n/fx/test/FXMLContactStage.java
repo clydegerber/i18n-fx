@@ -58,15 +58,19 @@ public class FXMLContactStage extends LocalizableStage
      * Loads {@code FXMLContact.fxml}, completes Resourceful component initialization
      * via {@link FXMLContactController#postLoad(LocalizableStage)}, and sets the scene.
      * Must be called on the JavaFX Application Thread.
+     * The locale is set before the FXML is loaded so all components start with the
+     * correct locale.
      *
+     * @param initialLocale The initial locale for this stage.
      * @return A fully initialized FXMLContactStage.
      * @throws UncheckedIOException if the FXML file cannot be loaded.
      */
-    public static FXMLContactStage create()
+    public static FXMLContactStage create(Locale initialLocale)
     {
         try
         {
             FXMLContactStage stage = new FXMLContactStage();
+            stage.setBundleLocale(initialLocale);
 
             FXMLLoader loader = new FXMLLoader(
                 FXMLContactStage.class.getResource("FXMLContact.fxml"));
