@@ -1563,7 +1563,7 @@ public class DemoStage extends LocalizableStage
 
     private void openSwingInteropDemo()
     {
-        SwingInteropStage demo = SwingInteropStage.create();
+        SwingInteropStage demo = SwingInteropStage.create(getBundleLocale());
         demo.initOwner(this);
         demo.show();
     }

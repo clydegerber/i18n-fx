@@ -89,10 +89,15 @@ public class SwingInteropStage extends LocalizableStage
     /**
      * Create and return a fully initialized SwingInteropStage.
      * Must be called on the JavaFX Application Thread.
+     * The locale is set before the UI is built so all components start with the
+     * correct locale.
+     *
+     * @param initialLocale The initial locale for this stage.
      */
-    public static SwingInteropStage create()
+    public static SwingInteropStage create(Locale initialLocale)
     {
         SwingInteropStage stage = new SwingInteropStage();
+        stage.setBundleLocale(initialLocale);
         stage.buildUI();
         stage.updateLocaleSpecificValues();
         return stage;
