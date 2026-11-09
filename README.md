@@ -8,7 +8,7 @@ when the application locale changes.
 
 ## Requirements
 
-- Java 24 or later
+- Java 25 or later
 - [i18n-core](https://github.com/clydegerber/i18n) 1.4.5 or later (pulled in transitively)
 
 ## Installation
@@ -19,7 +19,7 @@ when the application locale changes.
 <dependency>
     <groupId>dev.javai18n</groupId>
     <artifactId>i18n-fx</artifactId>
-    <version>1.1.1</version>
+    <version>1.2.0</version>
 </dependency>
 ```
 

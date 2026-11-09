@@ -4,6 +4,31 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.0] - 2026-11-09
+
+### Security
+
+- JavaFX is upgraded from 26.0.2 to 27.0.1, which includes the October 2026
+  Critical Patch Update: 14 security fixes across controls (CSS, input methods,
+  rich text), graphics (drag-and-drop, rendering, image handling), web (scripting
+  and resource loading, plus an update to WebKit 625.1) and window-toolkit
+  (image loading, clipboard). Details of these issues are not public; see the
+  [JavaFX 27.0.1 release notes](https://github.com/openjdk/jfx27u/blob/master/doc-files/release-notes-27.0.1.md).
+  The JavaFX 26 line receives no further updates, so 26.0.2 will not get these
+  fixes. `javafx-controls`, `javafx-graphics` and `javafx-web` are `compile`
+  scope, so consumers receive JavaFX 27.0.1 transitively, and
+  `ResourcefulHTMLEditor` is built on the patched WebView.
+
+### Changed
+
+- **Java 25 is now the minimum.** JavaFX 27 requires Java 25, so the library is
+  now compiled for Java 25 (previously Java 24). Projects still on Java 24 should
+  stay on 1.1.1.
+- JavaFX 27.0.1 no longer deserializes object graphs from the clipboard or
+  during drag-and-drop by default. This library does not use either, but
+  applications that do can restore the previous behavior by setting the
+  `javafx.dnd.deserializeObjectGraph` system property to `true`.
+
 ## [1.1.1] - 2026-11-02
 
 ### Fixed
