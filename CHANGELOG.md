@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.1] - 2026-11-15
+
+### Changed
+
+- Updated `i18n-core` dependency from 1.4.5 to 1.4.6, which transitively upgrades
+  `jackson-databind` from 3.2.4 to 3.3.0. No advisory is associated with this
+  upgrade (see i18n-core 1.4.6 release notes for details).
+- Updated `i18n-swing` test dependency from 1.2.7 to 1.2.8. Test scope only, with
+  no effect on consumers.
+
 ## [1.2.0] - 2026-11-09
 
 ### Security
